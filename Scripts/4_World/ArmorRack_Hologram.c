@@ -1,4 +1,4 @@
-modded class Hologram
+/*modded class Hologram
 {	
 	ItemBase FurnitureCollision()
 	{
@@ -67,7 +67,7 @@ modded class Hologram
         
         return entity_for_placing;
     } 
-	*/
+	*/ /*
     override void EvaluateCollision(ItemBase action_item = null)
     {
 		ItemBase item_in_hands = m_Parent;
@@ -80,4 +80,4 @@ modded class Hologram
 
         super.EvaluateCollision();
     }
-};
+};*/

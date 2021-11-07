@@ -1,4 +1,4 @@
-
+/*
 modded class ActionDeployObject
 {
     override void OnEndServer(ActionData action_data)
@@ -37,4 +37,4 @@ modded class ActionDeployObject
             super.OnEndServer(action_data);
         }
     }
-}
+}*/

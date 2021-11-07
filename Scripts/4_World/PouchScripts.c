@@ -1,18 +1,12 @@
 class MVS_Pouch_Base extends Container_Base
 {
-	override bool IsContainer()
-	{
+	override bool IsContainer() {
 		return true;
 	}
 	
-	override bool CanPutInCargo( EntityAI parent )
-	{
-		if( !super.CanPutInCargo(parent) ) {return false;}	
-		if ( parent.IsKindOf("MVS_Pouch_Base") || (parent.IsKindOf("PlateCarrierPouches"))
-		{
-			return false;
-		}
-	
+	override bool CanPutInCargo( EntityAI parent)  {
+		if ( !super.CanPutInCargo(parent) ) {return false;}	
+		if ( parent.IsKindOf("MVS_Pouch_Base") || parent.IsKindOf("PlateCarrierPouches" )) { return false; }
 		return true;
 	}
 	

@@ -1,4 +1,4 @@
-class DeCraftArmorRack extends RecipeBase
+/*class DeCraftArmorRack extends RecipeBase
 {	
 	override void Init()
 	{
@@ -67,4 +67,4 @@ class DeCraftArmorRack extends RecipeBase
 	{
 		Debug.Log("Recipe Do method called","recipes");
 	}
-};
+};*/

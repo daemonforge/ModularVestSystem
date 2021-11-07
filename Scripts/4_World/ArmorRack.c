@@ -1,4 +1,4 @@
-class ArmorRack_Kit : ItemBase
+/*class ArmorRack_Kit : ItemBase
 {
 	void Msp_Kit()
 	{
@@ -66,4 +66,4 @@ class Armor_Rack : ItemBase
 	{
 		return false;
 	}
-};
+};*/

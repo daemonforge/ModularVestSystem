@@ -1,4 +1,4 @@
-class CraftArmorRackKit extends RecipeBase
+/*class CraftArmorRackKit extends RecipeBase
 {	
 	override void Init()
 	{
@@ -64,4 +64,4 @@ class CraftArmorRackKit extends RecipeBase
 	{
 		Debug.Log("Recipe Do method called","recipes");
 	}
-};
+};*/

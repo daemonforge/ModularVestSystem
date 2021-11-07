@@ -19,7 +19,7 @@ modded class PluginRecipesManagerBase
 		RegisterRecipe(new CraftPatchUS2 );
 		RegisterRecipe(new CraftPatchCAN1 );
 		RegisterRecipe(new CraftPatchCAN2 );			
-		RegisterRecipe(new CraftArmorRackKit );
-		RegisterRecipe(new DeCraftArmorRack );
+		//RegisterRecipe(new CraftArmorRackKit );
+		//RegisterRecipe(new DeCraftArmorRack );
 	}	
 }
