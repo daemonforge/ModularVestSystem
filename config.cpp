@@ -11,7 +11,7 @@ class CfgPatches
 			"DZ_Characters_Vests",
 			"DZ_Characters_Backpacks",
 			"DZ_Scripts",
-			"DZ_Characters",
+			"DZ_Characters_Headgear",
 			"DZ_Gear_Drinks",
 			"DZ_Gear_Medical",
 			"DZ_Gear_Containers",
@@ -57,10 +57,14 @@ class cfgVehicles
 	class GorkaEJacket_Flat;
 	class CargoPants_Beige;
 	class TacticalShirt_Olive;
+	class Mich2001Helmet;
+	class GP5GasMask;
+	class FlatCap_Black;
+	class BoonieHat_Olive;
 	class MVS_Canteen_Base: Bottle_Base
 	{
 		scope=0;
-		displayName="MVS Canteen";
+		displayName="Canteen";
 		model="ModularVestSystem\data\canteen\MVS_Canteen.p3d";
 		hiddenSelections[] = {"zbytek"};
 		inventorySlot[] = {"Belt_Left"};
@@ -203,49 +207,49 @@ class cfgVehicles
 	class MVS_ChestRig_OD: ModularChestRig_Base
 	{
 		scope = 2;
-		displayName = "MVS Chestrig - OD";
+		displayName = "Chestrig - OD";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\MVS_Chestrig_co.paa","ModularVestSystem\data\vestTextures\MVS_Chestrig_co.paa","ModularVestSystem\data\vestTextures\MVS_Chestrig_co.paa"};
 	};
 	class MVS_ChestRig_ERDL: ModularChestRig_Base
 	{
 		scope = 2;
-		displayName = "MVS Chestrig - ERDL";
+		displayName = "Chestrig - ERDL";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\MVS_Chestrig_co_ERDL.paa","ModularVestSystem\data\vestTextures\MVS_Chestrig_co_ERDL.paa","ModularVestSystem\data\vestTextures\MVS_Chestrig_co_ERDL.paa"};
 	};
 	class MVS_ChestRig_Tan: ModularChestRig_Base
 	{
 		scope = 2;
-		displayName = "MVS Chestrig - Tan";
+		displayName = "Chestrig - Tan";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\MVS_Chestrig_co_Tan.paa","ModularVestSystem\data\vestTextures\MVS_Chestrig_co_Tan.paa","ModularVestSystem\data\vestTextures\MVS_Chestrig_co_Tan.paa"};
 	};
 	class MVS_ChestRig_Black: ModularChestRig_Base
 	{
 		scope = 2;
-		displayName = "MVS Chestrig - Black";
+		displayName = "Chestrig - Black";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\MVS_Chestrig_co_Black.paa","ModularVestSystem\data\vestTextures\MVS_Chestrig_co_Black.paa","ModularVestSystem\data\vestTextures\MVS_Chestrig_co_Black.paa"};
 	};
 	class MVS_ChestRig_Snow: ModularChestRig_Base
 	{
 		scope = 2;
-		displayName = "MVS Chestrig - Snow";
+		displayName = "Chestrig - Snow";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\MVS_Chestrig_co_Snow.paa","ModularVestSystem\data\vestTextures\MVS_Chestrig_co_Snow.paa","ModularVestSystem\data\vestTextures\MVS_Chestrig_co_Snow.paa"};
 	};
 	class MVS_ChestRig_Multicam: ModularChestRig_Base
 	{
 		scope = 2;
-		displayName = "MVS Chestrig - Multicam";
+		displayName = "Chestrig - Multicam";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\MVS_Chestrig_co_MC.paa","ModularVestSystem\data\vestTextures\MVS_Chestrig_co_MC.paa","ModularVestSystem\data\vestTextures\MVS_Chestrig_co_MC.paa"};
 	};
 	class MVS_ChestRig_Multicam_Tropic: ModularChestRig_Base
 	{
 		scope = 2;
-		displayName = "MVS Chestrig - Multicam Tropic";
+		displayName = "Chestrig - Multicam Tropic";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\MVS_Chestrig_co_MC_Tropic.paa","ModularVestSystem\data\vestTextures\MVS_Chestrig_co_MC_Tropic.paa","ModularVestSystem\data\vestTextures\MVS_Chestrig_co_MC_Tropic.paa"};
 	};
 	class MVS_ChestRig_Multicam_Black: ModularChestRig_Base
 	{
 		scope = 2;
-		displayName = "MVS Chestrig - Multicam Black";
+		displayName = "Chestrig - Multicam Black";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\MVS_Chestrig_co_MC_Black.paa","ModularVestSystem\data\vestTextures\MVS_Chestrig_co_MC_Black.paa","ModularVestSystem\data\vestTextures\MVS_Chestrig_co_MC_Black.paa"};
 	};
 	class ModularVestSystem_Base: Clothing
@@ -371,49 +375,49 @@ class cfgVehicles
 	class MVS_Combat_Vest_OD: ModularVestSystem_Base
 	{
 		scope = 2;
-		displayName = "MVS - OD";
+		displayName = "Combat Vest - OD";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co.paa","ModularVestSystem\data\vestTextures\vest_co.paa","ModularVestSystem\data\vestTextures\vest_co.paa"};
 	};
 	class MVS_Combat_Vest_ERDL: ModularVestSystem_Base
 	{
 		scope = 2;
-		displayName = "MVS - ERDL";
+		displayName = "Combat Vest - ERDL";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_ERDL.paa","ModularVestSystem\data\vestTextures\vest_co_ERDL.paa","ModularVestSystem\data\vestTextures\vest_co_ERDL.paa"};
 	};
 	class MVS_Combat_Vest_Tan: ModularVestSystem_Base
 	{
 		scope = 2;
-		displayName = "MVS - Tan";
+		displayName = "Combat Vest - Tan";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_tan.paa","ModularVestSystem\data\vestTextures\vest_co_tan.paa","ModularVestSystem\data\vestTextures\vest_co_tan.paa"};
 	};
 	class MVS_Combat_Vest_Black: ModularVestSystem_Base
 	{
 		scope = 2;
-		displayName = "MVS - Black";
+		displayName = "Combat Vest - Black";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_2.paa","ModularVestSystem\data\vestTextures\vest_co_2.paa","ModularVestSystem\data\vestTextures\vest_co_2.paa"};
 	};
 	class MVS_Combat_Vest_Snow: ModularVestSystem_Base
 	{
 		scope = 2;
-		displayName = "MVS - Snow";
+		displayName = "Combat Vest - Snow";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_snow.paa","ModularVestSystem\data\vestTextures\vest_co_snow.paa","ModularVestSystem\data\vestTextures\vest_co_snow.paa"};
 	};
 	class MVS_Combat_Vest_Multicam: ModularVestSystem_Base
 	{
 		scope = 2;
-		displayName = "MVS - Multicam";
+		displayName = "Combat Vest - Multicam";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_MC.paa","ModularVestSystem\data\vestTextures\vest_co_MC.paa","ModularVestSystem\data\vestTextures\vest_co_MC.paa"};
 	};
 	class MVS_Combat_Vest_Multicam_Black: ModularVestSystem_Base
 	{
 		scope = 2;
-		displayName = "MVS - Multicam Black";
+		displayName = "Combat Vest - Multicam Black";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_MC_Black.paa","ModularVestSystem\data\vestTextures\vest_co_MC_Black.paa","ModularVestSystem\data\vestTextures\vest_co_MC_Black.paa"};
 	};
 	class MVS_Combat_Vest_Multicam_Tropic: ModularVestSystem_Base
 	{
 		scope = 2;
-		displayName = "MVS - Multicam Tropic";
+		displayName = "Combat Vest - Multicam Tropic";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_MC_Tropic.paa","ModularVestSystem\data\vestTextures\vest_co_MC_Tropic.paa","ModularVestSystem\data\vestTextures\vest_co_MC_Tropic.paa"};
 	};
 	class ModularVestSystem_Heavy: Clothing
@@ -538,7 +542,7 @@ class cfgVehicles
 	class MVS_Combat_Vest_Heavy_OD: ModularVestSystem_Heavy
 	{
 		scope = 2;
-		displayName = "MVS Heavy - OD";
+		displayName = "Heavy Vest -OD";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\vestTextures\MVSHeavy_co.paa",
@@ -549,7 +553,7 @@ class cfgVehicles
 	class MVS_Combat_Vest_Heavy_ERDL: ModularVestSystem_Heavy
 	{
 		scope = 2;
-		displayName = "MVS Heavy - ERDL";
+		displayName = "Heavy Vest -ERDL";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\vestTextures\MVSHeavy_co_ERDL.paa",
@@ -560,7 +564,7 @@ class cfgVehicles
 	class MVS_Combat_Vest_Heavy_Tan: ModularVestSystem_Heavy
 	{
 		scope = 2;
-		displayName = "MVS Heavy - Tan";
+		displayName = "Heavy Vest -Tan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\vestTextures\MVSHeavy_co_Tan.paa",
@@ -571,7 +575,7 @@ class cfgVehicles
 	class MVS_Combat_Vest_Heavy_Black: ModularVestSystem_Heavy
 	{
 		scope = 2;
-		displayName = "MVS Heavy - Black";
+		displayName = "Heavy Vest -Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\vestTextures\MVSHeavy_co_Black.paa",
@@ -582,7 +586,7 @@ class cfgVehicles
 	class MVS_Combat_Vest_Heavy_Snow: ModularVestSystem_Heavy
 	{
 		scope = 2;
-		displayName = "MVS Heavy - Snow";
+		displayName = "Heavy Vest -Snow";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\vestTextures\MVSHeavy_co_Snow.paa",
@@ -593,7 +597,7 @@ class cfgVehicles
 	class MVS_Combat_Vest_Heavy_Multicam: ModularVestSystem_Heavy
 	{
 		scope = 2;
-		displayName = "MVS Heavy - Multicam";
+		displayName = "Heavy Vest -Multicam";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\vestTextures\MVSHeavy_co_MC.paa",
@@ -604,7 +608,7 @@ class cfgVehicles
 	class MVS_Combat_Vest_Heavy_Multicam_Tropic: ModularVestSystem_Heavy
 	{
 		scope = 2;
-		displayName = "MVS Heavy - Multicam Tropic";
+		displayName = "Heavy Vest -Multicam Tropic";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\vestTextures\MVSHeavy_co_MC_Tropic.paa",
@@ -615,7 +619,7 @@ class cfgVehicles
 	class MVS_Combat_Vest_Heavy_Multicam_Black: ModularVestSystem_Heavy
 	{
 		scope = 2;
-		displayName = "MVS Heavy - Multicam Black";
+		displayName = "Heavy Vest -Multicam Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\vestTextures\MVSHeavy_co_MC_Black.paa",
@@ -692,55 +696,55 @@ class cfgVehicles
 	class MVS_Magazine_Pouch_OD: Modular_Pouch_Base
 	{
 		scope = 2;
-		displayName = "MVS Magazine Pouch - OD";
+		displayName = "Magazine Pouch - OD";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co.paa"};
 	};
 	class MVS_Magazine_Pouch_ERDL: Modular_Pouch_Base
 	{
 		scope = 2;
-		displayName = "MVS Magazine Pouch - ERDL";
+		displayName = "Magazine Pouch - ERDL";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_ERDL.paa"};
 	};
 	class MVS_Magazine_Pouch_Tan: Modular_Pouch_Base
 	{
 		scope = 2;
-		displayName = "MVS Magazine Pouch - Tan";
+		displayName = "Magazine Pouch - Tan";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_tan.paa"};
 	};	
 	class MVS_Magazine_Pouch_Black: Modular_Pouch_Base
 	{
 		scope = 2;
-		displayName = "MVS Magazine Pouch - Black";
+		displayName = "Magazine Pouch - Black";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_2.paa"};
 	};
 	class MVS_Magazine_Pouch_Snow: Modular_Pouch_Base
 	{
 		scope = 2;
-		displayName = "MVS Magazine Pouch - Snow";
+		displayName = "Magazine Pouch - Snow";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_snow.paa"};
 	};
 	class MVS_Magazine_Pouch_Multicam: Modular_Pouch_Base
 	{
 		scope = 2;
-		displayName = "MVS Magazine Pouch - Multicam";
+		displayName = "Magazine Pouch - Multicam";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_MC.paa"};
 	};
 	class MVS_Magazine_Pouch_Multicam_Black: Modular_Pouch_Base
 	{
 		scope = 2;
-		displayName = "MVS Magazine Pouch - Multicam Black";
+		displayName = "Magazine Pouch - Multicam Black";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_MC_Black.paa"};
 	};
 	class MVS_Magazine_Pouch_Multicam_Tropic: Modular_Pouch_Base
 	{
 		scope = 2;
-		displayName = "MVS Magazine Pouch - Multicam Tropic";
+		displayName = "Magazine Pouch - Multicam Tropic";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_MC_Tropic.paa"};
 	};
 	class MVS_Molle_Panel_Base: MVS_Pouch_Base
 	{
 		scope = 0;
-		displayName = "MVS Molle Panel";
+		displayName = "Molle Panel";
 		descriptionShort = "The MVS molle panel, which attaches to the MVS belt, can store up to four grenades or 40mm rounds from DayZ Expansion mod.";
 		model = "ModularVestSystem\data\MVS_Molle_Panel.p3d";
 		rotationFlags=0;
@@ -775,55 +779,55 @@ class cfgVehicles
 	class MVS_Molle_Panel_OD: MVS_Molle_Panel_Base
 	{
 		scope = 2;
-		displayName = "MVS Molle Panel - OD";
+		displayName = "Molle Panel - OD";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co.paa"};
 	};
 	class MVS_Molle_Panel_Black: MVS_Molle_Panel_Base
 	{
 		scope = 2;
-		displayName = "MVS Molle Panel - Black";
+		displayName = "Molle Panel - Black";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_2.paa"};
 	};
 	class MVS_Molle_Panel_Tan: MVS_Molle_Panel_Base
 	{
 		scope = 2;
-		displayName = "MVS Molle Panel - Tan";
+		displayName = "Molle Panel - Tan";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_Tan.paa"};
 	};
 	class MVS_Molle_Panel_ERDL: MVS_Molle_Panel_Base
 	{
 		scope = 2;
-		displayName = "MVS Molle Panel - ERDL";
+		displayName = "Molle Panel - ERDL";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_ERDL.paa"};
 	};
 	class MVS_Molle_Panel_Snow: MVS_Molle_Panel_Base
 	{
 		scope = 2;
-		displayName = "MVS Molle Panel - Snow";
+		displayName = "Molle Panel - Snow";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_Snow.paa"};
 	};
 	class MVS_Molle_Panel_Multicam: MVS_Molle_Panel_Base
 	{
 		scope = 2;
-		displayName = "MVS Molle Panel - Multicam";
+		displayName = "Molle Panel - Multicam";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_MC.paa"};
 	};
 	class MVS_Molle_Panel_Multicam_Tropic: MVS_Molle_Panel_Base
 	{
 		scope = 2;
-		displayName = "MVS Molle Panel - Multicam Tropic";
+		displayName = "Molle Panel - Multicam Tropic";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_MC_Tropic.paa"};
 	};
 	class MVS_Molle_Panel_Multicam_Black: MVS_Molle_Panel_Base
 	{
 		scope = 2;
-		displayName = "MVS Molle Panel - Multicam Black";
+		displayName = "Molle Panel - Multicam Black";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_MC_Black.paa"};
 	};	
 	class Modular_Pouch_Base_Taco: MVS_Pouch_Base
 	{
 		scope = 0;
-		displayName = "MVS Raid Pouch";
+		displayName = "Raid Pouch";
 		descriptionShort = "The MVS Raid pouch, capable of holding Pliers, a Screwdriver, and lockpick";
 		model = "ModularVestSystem\data\modular_pouch_12.p3d";
 		attachments[] = {"MVS_Screwdriver","MVS_Pliers","Screwdriver1","Pliers1","MVS_Lockpick"};
@@ -877,49 +881,49 @@ class cfgVehicles
 	class MVS_Taco_Pouch_OD: Modular_Pouch_Base_Taco
 	{
 		scope = 2;
-		displayName = "MVS Raid Pouch - OD";
+		displayName = "Raid Pouch - OD";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\taco_co.paa"};
 	};	
 	class MVS_Taco_Pouch_ERDL: Modular_Pouch_Base_Taco
 	{
 		scope = 2;
-		displayName = "MVS Raid Pouch - ERDL";
+		displayName = "Raid Pouch - ERDL";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\taco_co_ERDL.paa"};
 	};	
 	class MVS_Taco_Pouch_Tan: Modular_Pouch_Base_Taco
 	{
 		scope = 2;
-		displayName = "MVS Raid Pouch - Tan";
+		displayName = "Raid Pouch - Tan";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\taco_co_tan.paa"};
 	};	
 	class MVS_Taco_Pouch_Black: Modular_Pouch_Base_Taco
 	{
 		scope = 2;
-		displayName = "MVS Raid Pouch - Black";
+		displayName = "Raid Pouch - Black";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\taco_co_black.paa"};
 	};
 	class MVS_Taco_Pouch_Snow: Modular_Pouch_Base_Taco
 	{
 		scope = 2;
-		displayName = "MVS Raid Pouch - Snow";
+		displayName = "Raid Pouch - Snow";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\taco_co_snow.paa"};
 	};
 	class MVS_Taco_Pouch_Multicam: Modular_Pouch_Base_Taco
 	{
 		scope = 2;
-		displayName = "MVS Raid Pouch - Multicam";
+		displayName = "Raid Pouch - Multicam";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\taco_co_MC.paa"};
 	};
 	class MVS_Taco_Pouch_Multicam_Tropic: Modular_Pouch_Base_Taco
 	{
 		scope = 2;
-		displayName = "MVS Raid Pouch - Multicam Tropic";
+		displayName = "Raid Pouch - Multicam Tropic";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\taco_co_MC_Tropic.paa"};
 	};
 	class MVS_Taco_Pouch_Multicam_Black: Modular_Pouch_Base_Taco
 	{
 		scope = 2;
-		displayName = "MVS Raid Pouch - Multicam Black";
+		displayName = "Raid Pouch - Multicam Black";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\taco_co_MC_Black.paa"};
 	};
 	class Modular_Pouch_Base_Admin: MVS_Pouch_Base
@@ -960,55 +964,55 @@ class cfgVehicles
 	class MVS_Admin_Pouch_OD: Modular_Pouch_Base_Admin
 	{
 		scope = 2;
-		displayName = "MVS Admin Pouch - OD";
+		displayName = "Admin Pouch - OD";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co.paa"};
 	};	
 	class MVS_Admin_Pouch_ERDL: Modular_Pouch_Base_Admin
 	{
 		scope = 2;
-		displayName = "MVS Admin Pouch - ERDL";
+		displayName = "Admin Pouch - ERDL";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_ERDL.paa"};
 	};	
 	class MVS_Admin_Pouch_Tan: Modular_Pouch_Base_Admin
 	{
 		scope = 2;
-		displayName = "MVS Admin Pouch - Tan";
+		displayName = "Admin Pouch - Tan";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_tan.paa"};
 	};		
 	class MVS_Admin_Pouch_Black: Modular_Pouch_Base_Admin
 	{
 		scope = 2;
-		displayName = "MVS Admin Pouch - Black";
+		displayName = "Admin Pouch - Black";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_2.paa"};
 	};
 	class MVS_Admin_Pouch_Snow: Modular_Pouch_Base_Admin
 	{
 		scope = 2;
-		displayName = "MVS Admin Pouch - Snow";
+		displayName = "Admin Pouch - Snow";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_snow.paa"};
 	};
 	class MVS_Admin_Pouch_Multicam: Modular_Pouch_Base_Admin
 	{
 		scope = 2;
-		displayName = "MVS Admin Pouch - Multicam";
+		displayName = "Admin Pouch - Multicam";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_MC.paa"};
 	};
 	class MVS_Admin_Pouch_Multicam_Black: Modular_Pouch_Base_Admin
 	{
 		scope = 2;
-		displayName = "MVS Admin Pouch - Multicam Black";
+		displayName = "Admin Pouch - Multicam Black";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_MC_Black.paa"};
 	};
 	class MVS_Admin_Pouch_Multicam_Tropic: Modular_Pouch_Base_Admin
 	{
 		scope = 2;
-		displayName = "MVS Admin Pouch - Multicam Tropic";
+		displayName = "Admin Pouch - Multicam Tropic";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_MC_Tropic.paa"};
 	};
 	class Modular_Pouch_Base_Heavy: MVS_Pouch_Base
 	{
 		scope = 0;
-		displayName = "MVS Heavy LMG Pouch";
+		displayName = "Heavy LMG Pouch";
 		descriptionShort = "The MVS LMG pouch, good for storing belt-fed ammunition or drum mags";
 		model = "ModularVestSystem\data\modular_pouch_11.p3d";
 		itemSize[] = {4,5};
@@ -1060,50 +1064,50 @@ class cfgVehicles
 	class MVS_Heavy_Pouch_OD: Modular_Pouch_Base_Heavy
 	{
 		scope = 2;
-		displayName = "MVS Heavy LMG Pouch - OD";
+		displayName = "Heavy LMG Pouch - OD";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vestheavy_co.paa"};
 	};	
 	class MVS_Heavy_Pouch_ERDL: Modular_Pouch_Base_Heavy
 	{
 		scope = 2;
-		displayName = "MVS Heavy LMG Pouch - ERDL";
+		displayName = "Heavy LMG Pouch - ERDL";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vestheavy_co_ERDL.paa"};
 	};
 	
 	class MVS_Heavy_Pouch_Tan: Modular_Pouch_Base_Heavy
 	{
 		scope = 2;
-		displayName = "MVS Heavy LMG Pouch - Tan";
+		displayName = "Heavy LMG Pouch - Tan";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vestheavy_co_tan.paa"};
 	};		
 	class MVS_Heavy_Pouch_Black: Modular_Pouch_Base_Heavy
 	{
 		scope = 2;
-		displayName = "MVS Heavy LMG Pouch - Black";
+		displayName = "Heavy LMG Pouch - Black";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vestheavy_co_2.paa"};
 	};
 	class MVS_Heavy_Pouch_Snow: Modular_Pouch_Base_Heavy
 	{
 		scope = 2;
-		displayName = "MVS Heavy LMG Pouch - Snow";
+		displayName = "Heavy LMG Pouch - Snow";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vestheavy_co_snow.paa"};
 	};
 	class MVS_Heavy_Pouch_Multicam: Modular_Pouch_Base_Heavy
 	{
 		scope = 2;
-		displayName = "MVS Heavy LMG Pouch - Multicam";
+		displayName = "Heavy LMG Pouch - Multicam";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vestheavy_co_MC.paa"};
 	};
 	class MVS_Heavy_Pouch_Multicam_Tropic: Modular_Pouch_Base_Heavy
 	{
 		scope = 2;
-		displayName = "MVS Heavy LMG Pouch - Multicam Tropic";
+		displayName = "Heavy LMG Pouch - Multicam Tropic";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vestheavy_co_MC_Tropic.paa"};
 	};
 	class MVS_Heavy_Pouch_Multicam_Black: Modular_Pouch_Base_Heavy
 	{
 		scope = 2;
-		displayName = "MVS Heavy LMG Pouch - Multicam Black";
+		displayName = "Heavy LMG Pouch - Multicam Black";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vestheavy_co_MC_Black.paa"};
 	};
 	class Modular_Pouch_Base_Utility: MVS_Pouch_Base
@@ -1127,49 +1131,49 @@ class cfgVehicles
 	class MVS_Utility_Pouch_OD: Modular_Pouch_Base_Utility
 	{
 		scope = 2;
-		displayName = "MVS Utility Pouch - OD";
+		displayName = "Utility Pouch - OD";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co.paa"};
 	};
 	class MVS_Utility_Pouch_ERDL: Modular_Pouch_Base_Utility
 	{
 		scope = 2;
-		displayName = "MVS Utility Pouch - ERDL";
+		displayName = "Utility Pouch - ERDL";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_ERDL.paa"};
 	};
 	class MVS_Utility_Pouch_Tan: Modular_Pouch_Base_Utility
 	{
 		scope = 2;
-		displayName = "MVS Utility Pouch - Tan";
+		displayName = "Utility Pouch - Tan";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_tan.paa"};
 	};	
 	class MVS_Utility_Pouch_Black: Modular_Pouch_Base_Utility
 	{
 		scope = 2;
-		displayName = "MVS Utility Pouch - Black";
+		displayName = "Utility Pouch - Black";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_2.paa"};
 	};
 	class MVS_Utility_Pouch_Snow: Modular_Pouch_Base_Utility
 	{
 		scope = 2;
-		displayName = "MVS Utility Pouch - Snow";
+		displayName = "Utility Pouch - Snow";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_snow.paa"};
 	};
 	class MVS_Utility_Pouch_Multicam: Modular_Pouch_Base_Utility
 	{
 		scope = 2;
-		displayName = "MVS Utility Pouch - Multicam";
+		displayName = "Utility Pouch - Multicam";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_MC.paa"};
 	};
 	class MVS_Utility_Pouch_Multicam_Black: Modular_Pouch_Base_Utility
 	{
 		scope = 2;
-		displayName = "MVS Utility Pouch - Multicam Black";
+		displayName = "Utility Pouch - Multicam Black";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_MC_Black.paa"};
 	};
 	class MVS_Utility_Pouch_Multicam_Tropic: Modular_Pouch_Base_Utility
 	{
 		scope = 2;
-		displayName = "MVS Utility Pouch - Multicam Tropic";
+		displayName = "Utility Pouch - Multicam Tropic";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_MC_Tropic.paa"};
 	};
 	class Modular_Pouch_Base_Medical: MVS_Pouch_Base
@@ -1193,55 +1197,55 @@ class cfgVehicles
 	class MVS_Medical_Pouch_OD: Modular_Pouch_Base_Medical
 	{
 		scope = 2;
-		displayName = "MVS Medical Pouch - OD";
+		displayName = "Medical Pouch - OD";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_medical.paa"};
 	};
 	class MVS_Medical_Pouch_ERDL: Modular_Pouch_Base_Medical
 	{
 		scope = 2;
-		displayName = "MVS Medical Pouch - ERDL";
+		displayName = "Medical Pouch - ERDL";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_ERDL_medical.paa"};
 	};
 	class MVS_Medical_Pouch_Tan: Modular_Pouch_Base_Medical
 	{
 		scope = 2;
-		displayName = "MVS Medical Pouch - Tan";
+		displayName = "Medical Pouch - Tan";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_tan_medical.paa"};
 	};	
 	class MVS_Medical_Pouch_Black: Modular_Pouch_Base_Medical
 	{
 		scope = 2;
-		displayName = "MVS Medical Pouch - Black";
+		displayName = "Medical Pouch - Black";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_2_medical.paa"};
 	};
 	class MVS_Medical_Pouch_Snow: Modular_Pouch_Base_Medical
 	{
 		scope = 2;
-		displayName = "MVS Medical Pouch - Snow";
+		displayName = "Medical Pouch - Snow";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_snow_medical.paa"};
 	};
 	class MVS_Medical_Pouch_Multicam: Modular_Pouch_Base_Medical
 	{
 		scope = 2;
-		displayName = "MVS Medical Pouch - Multicam";
+		displayName = "Medical Pouch - Multicam";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_MC_medical.paa"};
 	};
 	class MVS_Medical_Pouch_Multicam_Black: Modular_Pouch_Base_Medical
 	{
 		scope = 2;
-		displayName = "MVS Medical Pouch - Multicam Black";
+		displayName = "Medical Pouch - Multicam Black";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_MC_Black_medical.paa"};
 	};
 	class MVS_Medical_Pouch_Multicam_Tropic: Modular_Pouch_Base_Medical
 	{
 		scope = 2;
-		displayName = "MVS Medical Pouch - Multicam Tropic";
+		displayName = "Medical Pouch - Multicam Tropic";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\vestTextures\vest_co_MC_Tropic_medical.paa"};
 	};
 	class MVS_Helmet_Base: Clothing
 	{
 		scope = 0;
-		displayName = "MVS Combat Helmet";
+		displayName = "Combat Helmet";
 		descriptionShort = "The MICH-style combat helmet offers good ballistic protection, much like the MICH 2001 combat helmet";
 		model = "ModularVestSystem\data\Helmets\Combat_Helmet_g.p3d";
 		repairableWithKits[] = {8};
@@ -1368,7 +1372,7 @@ class cfgVehicles
 	class MVS_Helmet_01_Tan: MVS_Helmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Helmet - Tan";
+		displayName = "Combat Helmet - Tan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\do_helmets_co_Tan.paa",
@@ -1380,7 +1384,7 @@ class cfgVehicles
 	class MVS_Helmet_01_Tan_Worn: MVS_Helmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Helmet - Scuffed";
+		displayName = "Combat Helmet - Scuffed";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\do_helmets_co_Tan_Worn.paa",
@@ -1392,7 +1396,7 @@ class cfgVehicles
 	class MVS_Helmet_01_OD: MVS_Helmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Helmet - OD";
+		displayName = "Combat Helmet - OD";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\do_helmets_co.paa",
@@ -1404,7 +1408,7 @@ class cfgVehicles
 	class MVS_Helmet_01_Black: MVS_Helmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Helmet - Black";
+		displayName = "Combat Helmet - Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\do_helmets_co_Black.paa",
@@ -1416,7 +1420,7 @@ class cfgVehicles
 	class MVS_Helmet_01_Snow: MVS_Helmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Helmet - Snow";
+		displayName = "Combat Helmet - Snow";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\do_helmets_co_Snow.paa",
@@ -1428,7 +1432,7 @@ class cfgVehicles
 	class MVS_Helmet_01_ERDL: MVS_Helmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Helmet - ERDL";
+		displayName = "Combat Helmet - ERDL";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\do_helmets_co_ERDL.paa",
@@ -1440,7 +1444,7 @@ class cfgVehicles
 	class MVS_Helmet_01_Multicam: MVS_Helmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Helmet - Multicam";
+		displayName = "Combat Helmet - Multicam";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\do_helmets_co_MC.paa",
@@ -1452,7 +1456,7 @@ class cfgVehicles
 	class MVS_Helmet_01_Multicam_Black: MVS_Helmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Helmet - Multicam Black";
+		displayName = "Combat Helmet - Multicam Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\do_helmets_co_MC_Black.paa",
@@ -1464,7 +1468,7 @@ class cfgVehicles
 	class MVS_Helmet_01_Multicam_Tropic: MVS_Helmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Helmet - Multicam Tropic";
+		displayName = "Combat Helmet - Multicam Tropic";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\do_helmets_co_MC_Tropic.paa",
@@ -1476,7 +1480,7 @@ class cfgVehicles
 	class MVS_Helmet_2_Base: Mich2001Helmet
 	{
 		scope = 0;
-		displayName = "MVS Combat Helmet 2";
+		displayName = "Combat Helmet 2";
 		descriptionShort = "The MICH-style combat helmet offers good ballistic protection, much like the MICH 2001 combat helmet";
 		model = "ModularVestSystem\data\Helmets\Combat_Helmet_2_g.p3d";
 		attachments[]={"NVG","patch_03","helmetFlashlight"};
@@ -1587,55 +1591,55 @@ class cfgVehicles
 	class MVS_Helmet_02_OD: MVS_Helmet_2_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Helmet - OD";
+		displayName = "Combat Helmet - OD";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\Helmets\MVS_Helmet_2_OD_co.paa","ModularVestSystem\data\Helmets\MVS_Helmet_2_OD_co.paa","ModularVestSystem\data\Helmets\MVS_Helmet_2_OD_co.paa"};
 	};
 	class MVS_Helmet_02_Tan: MVS_Helmet_2_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Helmet - Tan";
+		displayName = "Combat Helmet - Tan";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\Helmets\MVS_Helmet_2_Tan_co.paa","ModularVestSystem\data\Helmets\MVS_Helmet_2_Tan_co.paa","ModularVestSystem\data\Helmets\MVS_Helmet_2_Tan_co.paa"};
 	};
 	class MVS_Helmet_02_Black: MVS_Helmet_2_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Helmet - Black";
+		displayName = "Combat Helmet - Black";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\Helmets\MVS_Helmet_2_Black_co.paa","ModularVestSystem\data\Helmets\MVS_Helmet_2_Black_co.paa","ModularVestSystem\data\Helmets\MVS_Helmet_2_Black_co.paa"};
 	};
 	class MVS_Helmet_02_Multicam_Black: MVS_Helmet_2_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Helmet - Multicam Black";
+		displayName = "Combat Helmet - Multicam Black";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\Helmets\MVS_Helmet_2_MC_Black_co.paa","ModularVestSystem\data\Helmets\MVS_Helmet_2_MC_Black_co.paa","ModularVestSystem\data\Helmets\MVS_Helmet_2_MC_Black_co.paa"};
 	};
 	class MVS_Helmet_02_Multicam: MVS_Helmet_2_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Helmet - Multicam";
+		displayName = "Combat Helmet - Multicam";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\Helmets\MVS_Helmet_2_MC_co.paa","ModularVestSystem\data\Helmets\MVS_Helmet_2_MC_co.paa","ModularVestSystem\data\Helmets\MVS_Helmet_2_MC_co.paa"};
 	};
 	class MVS_Helmet_02_Multicam_Tropic: MVS_Helmet_2_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Helmet - Multicam Tropic";
+		displayName = "Combat Helmet - Multicam Tropic";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\Helmets\MVS_Helmet_2_MC_Tropic_co.paa","ModularVestSystem\data\Helmets\MVS_Helmet_2_MC_Tropic_co.paa","ModularVestSystem\data\Helmets\MVS_Helmet_2_MC_Tropic_co.paa"};
 	};
 	class MVS_Helmet_02_ERDL: MVS_Helmet_2_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Helmet - ERDL";
+		displayName = "Combat Helmet - ERDL";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\Helmets\MVS_Helmet_2_ERDL_co.paa","ModularVestSystem\data\Helmets\MVS_Helmet_2_ERDL_co.paa","ModularVestSystem\data\Helmets\MVS_Helmet_2_ERDL_co.paa"};
 	};
 	class MVS_Helmet_02_Snow: MVS_Helmet_2_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Helmet - Snow";
+		displayName = "Combat Helmet - Snow";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\Helmets\MVS_Helmet_2_snow_co.paa","ModularVestSystem\data\Helmets\MVS_Helmet_2_snow_co.paa","ModularVestSystem\data\Helmets\MVS_Helmet_2_snow_co.paa"};
 	};
 	class MVS_6B47Helmet_Base: Clothing
 	{
 		scope = 0;
-		displayName = "MVS 6B47 Helmet";
+		displayName = "6B47 Helmet";
 		descriptionShort = "The Russian-designed 6B47 helmet is a part of ‘Ratnik’ (‘Warrior’) combat gear.";
 		model = "ModularVestSystem\data\Helmets\MVS_6B47_g.p3d";
 		repairableWithKits[] = {8};
@@ -1762,25 +1766,25 @@ class cfgVehicles
 	class MVS_6B47_Helmet_OD: MVS_6B47Helmet_Base
 	{
 		scope = 2;
-		displayName = "MVS 6B47 - OD";
+		displayName = "6B47 - OD";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\Helmets\MVS_6B47_OD_co.paa","ModularVestSystem\data\Helmets\MVS_6B47_OD_co.paa","ModularVestSystem\data\Helmets\MVS_6B47_OD_co.paa"};
 	};
 	class MVS_6B47_Helmet_Tan: MVS_6B47Helmet_Base
 	{
 		scope = 2;
-		displayName = "MVS 6B47 - Tan";
+		displayName = "6B47 - Tan";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\Helmets\MVS_6B47_Tan_co.paa","ModularVestSystem\data\Helmets\MVS_6B47_Tan_co.paa","ModularVestSystem\data\Helmets\MVS_6B47_Tan_co.paa"};
 	};
 	class MVS_6B47_Helmet_Black: MVS_6B47Helmet_Base
 	{
 		scope = 2;
-		displayName = "MVS 6B47 - Black";
+		displayName = "6B47 - Black";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\Helmets\MVS_6B47_Black_co.paa","ModularVestSystem\data\Helmets\MVS_6B47_Black_co.paa","ModularVestSystem\data\Helmets\MVS_6B47_Black_co.paa"};
 	};
 	class MVS_OpsCore_Base: Clothing
 	{
 		scope = 0;
-		displayName = "MVS High Cut Helmet";
+		displayName = "High Cut Helmet";
 		descriptionShort = "The High Cut style combat helmet offers good ballistic protection.";
 		model = "ModularVestSystem\data\Helmets\OpsCore_Helmet_g.p3d";
 		attachments[]={"NVG","patch_03","helmetFlashlight"};
@@ -1907,49 +1911,49 @@ class cfgVehicles
 	class MVS_OpsCore_Tan: MVS_OpsCore_Base
 	{
 		scope = 2;
-		displayName = "MVS High Cut Helmet - Tan";
+		displayName = "High Cut Helmet - Tan";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\Helmets\OpsCore_co_Tan.paa","ModularVestSystem\data\Helmets\OpsCore_co_Tan.paa","ModularVestSystem\data\Helmets\OpsCore_co_Tan.paa"};
 	};
 	class MVS_OpsCore_OD: MVS_OpsCore_Base
 	{
 		scope = 2;
-		displayName = "MVS High Cut Helmet - OD";
+		displayName = "High Cut Helmet - OD";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\Helmets\OpsCore_co.paa","ModularVestSystem\data\Helmets\OpsCore_co.paa","ModularVestSystem\data\Helmets\OpsCore_co.paa"};
 	};
 	class MVS_OpsCore_ERDL: MVS_OpsCore_Base
 	{
 		scope = 2;
-		displayName = "MVS High Cut Helmet - ERDL";
+		displayName = "High Cut Helmet - ERDL";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\Helmets\OpsCore_co_ERDL.paa","ModularVestSystem\data\Helmets\OpsCore_co_ERDL.paa","ModularVestSystem\data\Helmets\OpsCore_co_ERDL.paa"};
 	};
 	class MVS_OpsCore_Black: MVS_OpsCore_Base
 	{
 		scope = 2;
-		displayName = "MVS High Cut Helmet - Black";
+		displayName = "High Cut Helmet - Black";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\Helmets\OpsCore_co_Black.paa","ModularVestSystem\data\Helmets\OpsCore_co_Black.paa","ModularVestSystem\data\Helmets\OpsCore_co_Black.paa"};
 	};
 	class MVS_OpsCore_Snow: MVS_OpsCore_Base
 	{
 		scope = 2;
-		displayName = "MVS High Cut Helmet - Snow";
+		displayName = "High Cut Helmet - Snow";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\Helmets\OpsCore_co_Snow.paa","ModularVestSystem\data\Helmets\OpsCore_co_Snow.paa","ModularVestSystem\data\Helmets\OpsCore_co_Snow.paa"};
 	};	
 	class MVS_OpsCore_Multicam: MVS_OpsCore_Base
 	{
 		scope = 2;
-		displayName = "MVS High Cut Helmet - Multicam";
+		displayName = "High Cut Helmet - Multicam";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\Helmets\OpsCore_co_MC.paa","ModularVestSystem\data\Helmets\OpsCore_co_MC.paa","ModularVestSystem\data\Helmets\OpsCore_co_MC.paa"};
 	};	
 	class MVS_OpsCore_Multicam_Tropic: MVS_OpsCore_Base
 	{
 		scope = 2;
-		displayName = "MVS High Cut Helmet - Multicam Tropic";
+		displayName = "High Cut Helmet - Multicam Tropic";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\Helmets\OpsCore_co_MC_Tropic.paa","ModularVestSystem\data\Helmets\OpsCore_co_MC_Tropic.paa","ModularVestSystem\data\Helmets\OpsCore_co_MC_Tropic.paa"};
 	};	
 	class MVS_OpsCore_Multicam_Black: MVS_OpsCore_Base
 	{
 		scope = 2;
-		displayName = "MVS High Cut Helmet - Multicam Black";
+		displayName = "High Cut Helmet - Multicam Black";
 		hiddenSelectionsTextures[] = {"ModularVestSystem\data\Helmets\OpsCore_co_MC_Black.paa","ModularVestSystem\data\Helmets\OpsCore_co_MC_Black.paa","ModularVestSystem\data\Helmets\OpsCore_co_MC_Black.paa"};
 	};
 	class MVS_ArmoredHelmet_Base: Clothing
@@ -2079,7 +2083,7 @@ class cfgVehicles
 	class MVS_ArmoredHelmet_Tan: MVS_ArmoredHelmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Armored Helmet - Tan";
+		displayName = "Armored Helmet - Tan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\OpsCoreArmored_co_Tan.paa",
@@ -2092,7 +2096,7 @@ class cfgVehicles
 	class MVS_ArmoredHelmet_OD: MVS_ArmoredHelmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Armored Helmet - OD";
+		displayName = "Armored Helmet - OD";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\OpsCoreArmored_co.paa",
@@ -2105,7 +2109,7 @@ class cfgVehicles
 	class MVS_ArmoredHelmet_ERDL: MVS_ArmoredHelmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Armored Helmet - ERDL";
+		displayName = "Armored Helmet - ERDL";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\OpsCore_co_ERDL.paa",
@@ -2118,7 +2122,7 @@ class cfgVehicles
 	class MVS_ArmoredHelmet_Black: MVS_ArmoredHelmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Armored Helmet - Black";
+		displayName = "Armored Helmet - Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\OpsCoreArmored_co_Black.paa",
@@ -2131,7 +2135,7 @@ class cfgVehicles
 	class MVS_ArmoredHelmet_Snow: MVS_ArmoredHelmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Armored Helmet - Snow";
+		displayName = "Armored Helmet - Snow";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\OpsCore_co_Snow.paa",
@@ -2144,7 +2148,7 @@ class cfgVehicles
 	class MVS_ArmoredHelmet_Multicam: MVS_ArmoredHelmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Armored Helmet - Multicam";
+		displayName = "Armored Helmet - Multicam";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\OpsCore_co_MC.paa",
@@ -2157,7 +2161,7 @@ class cfgVehicles
 	class MVS_ArmoredHelmet_Multicam_Tropic: MVS_ArmoredHelmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Armored Helmet - Multicam Tropic";
+		displayName = "Armored Helmet - Multicam Tropic";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\OpsCore_co_MC_Tropic.paa",
@@ -2170,7 +2174,7 @@ class cfgVehicles
 	class MVS_ArmoredHelmet_Multicam_Black: MVS_ArmoredHelmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Armored Helmet - Multicam Black";
+		displayName = "Armored Helmet - Multicam Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\OpsCore_co_MC_Black.paa",
@@ -2183,7 +2187,7 @@ class cfgVehicles
 	class MVS_Altyn_Helmet_Base: Clothing
 	{
 		scope=0;
-		displayName = "MVS Altyn Helmet";
+		displayName = "Altyn Helmet";
 		descriptionShort = "The Altyn MVS helmet offers the best ballistic protection. Identifier patch and Altyn Visor can be attached.";
 		model="ModularVestSystem\data\Helmets\MVS_Altyn_Helmet_g.p3d";
 		attachments[]={"MVS_Altyn_Visor","patch_03"};
@@ -2308,7 +2312,7 @@ class cfgVehicles
 	class MVS_Altyn_OD: MVS_Altyn_Helmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Altyn Helmet - OD";
+		displayName = "Altyn Helmet - OD";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\MVS_Altyn_co_OD.paa",
@@ -2320,7 +2324,7 @@ class cfgVehicles
 	class MVS_Altyn_Tan: MVS_Altyn_Helmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Altyn Helmet - Tan";
+		displayName = "Altyn Helmet - Tan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\MVS_Altyn_co_Tan.paa",
@@ -2332,7 +2336,7 @@ class cfgVehicles
 	class MVS_Altyn_Black: MVS_Altyn_Helmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Altyn Helmet - Black";
+		displayName = "Altyn Helmet - Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\MVS_Altyn_co_Black.paa",
@@ -2344,7 +2348,7 @@ class cfgVehicles
 	class MVS_Altyn_Visor: Clothing
 	{
 		scope=0;
-		displayName="MVS Altyn Visor";
+		displayName="Altyn Visor";
 		descriptionShort="Attaches to the MVS Altyn Helmet";
 		weight = 110;
 		absorbency = 0.8;
@@ -2418,7 +2422,7 @@ class cfgVehicles
 	class MVS_Altyn_Visor_OD: MVS_Altyn_Visor
 	{
 		scope = 2;
-		displayName = "MVS Altyn Visor - OD";
+		displayName = "Altyn Visor - OD";
 		color = "OD";
 		hiddenSelectionsTextures[] = 
 		{
@@ -2431,7 +2435,7 @@ class cfgVehicles
 	class MVS_Altyn_Visor_Tan: MVS_Altyn_Visor
 	{
 		scope = 2;
-		displayName = "MVS Altyn Visor - Tan";
+		displayName = "Altyn Visor - Tan";
 		color = "Tan";
 		hiddenSelectionsTextures[] = 
 		{
@@ -2444,7 +2448,7 @@ class cfgVehicles
 	class MVS_Altyn_Visor_Black: MVS_Altyn_Visor
 	{
 		scope = 2;
-		displayName = "MVS Altyn Visor - Black";
+		displayName = "Altyn Visor - Black";
 		color = "Black";
 		hiddenSelectionsTextures[] = 
 		{
@@ -2457,7 +2461,7 @@ class cfgVehicles
 	class MVS_Altyn_Visor_Lifted: Clothing
 	{
 		scope=0;
-		displayName="MVS Altyn Visor";
+		displayName="Altyn Visor";
 		descriptionShort="Attaches to the MVS Altyn Helmet";
 		weight = 110;
 		absorbency = 0.8;
@@ -2531,7 +2535,7 @@ class cfgVehicles
 	class MVS_Altyn_Visor_Lifted_OD: MVS_Altyn_Visor_Lifted
 	{
 		scope = 2;
-		displayName = "MVS Altyn Visor - OD";
+		displayName = "Altyn Visor - OD";
 		color = "OD";
 		hiddenSelectionsTextures[] = 
 		{
@@ -2544,7 +2548,7 @@ class cfgVehicles
 	class MVS_Altyn_Visor_Lifted_Tan: MVS_Altyn_Visor_Lifted
 	{
 		scope = 2;
-		displayName = "MVS Altyn Visor - Tan";
+		displayName = "Altyn Visor - Tan";
 		color = "Tan";
 		hiddenSelectionsTextures[] = 
 		{
@@ -2557,7 +2561,7 @@ class cfgVehicles
 	class MVS_Altyn_Visor_Lifted_Black: MVS_Altyn_Visor_Lifted
 	{
 		scope = 2;
-		displayName = "MVS Altyn Visor - Black";
+		displayName = "Altyn Visor - Black";
 		color = "Black";
 		hiddenSelectionsTextures[] = 
 		{
@@ -2696,7 +2700,7 @@ class cfgVehicles
 	class MVS_WarriorHelmet_Tan: MVS_WarriorHelmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Warrior Helmet - Tan";
+		displayName = "Warrior Helmet - Tan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\OpsCore_co_Tan.paa",
@@ -2709,7 +2713,7 @@ class cfgVehicles
 	class MVS_WarriorHelmet_OD: MVS_WarriorHelmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Warrior Helmet - OD";
+		displayName = "Warrior Helmet - OD";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\OpsCore_co.paa",
@@ -2722,7 +2726,7 @@ class cfgVehicles
 	class MVS_WarriorHelmet_Black: MVS_WarriorHelmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Warrior Helmet - Black";
+		displayName = "Warrior Helmet - Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\OpsCore_co_Black.paa",
@@ -2735,7 +2739,7 @@ class cfgVehicles
 	class MVS_WarriorHelmet_ERDL: MVS_WarriorHelmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Warrior Helmet - ERDL";
+		displayName = "Warrior Helmet - ERDL";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\OpsCore_co_ERDL.paa",
@@ -2748,7 +2752,7 @@ class cfgVehicles
 	class MVS_WarriorHelmet_Snow: MVS_WarriorHelmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Warrior Helmet - Snow";
+		displayName = "Warrior Helmet - Snow";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\OpsCore_co_Snow.paa",
@@ -2761,7 +2765,7 @@ class cfgVehicles
 	class MVS_WarriorHelmet_Multicam: MVS_WarriorHelmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Warrior Helmet - Multicam";
+		displayName = "Warrior Helmet - Multicam";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\OpsCore_co_MC.paa",
@@ -2774,7 +2778,7 @@ class cfgVehicles
 	class MVS_WarriorHelmet_Multicam_Tropic: MVS_WarriorHelmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Warrior Helmet - Multicam Tropic";
+		displayName = "Warrior Helmet - Multicam Tropic";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\OpsCore_co_MC_Tropic.paa",
@@ -2787,7 +2791,7 @@ class cfgVehicles
 	class MVS_WarriorHelmet_Multicam_Black: MVS_WarriorHelmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Warrior Helmet - Multicam Black";
+		displayName = "Warrior Helmet - Multicam Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\OpsCore_co_MC_Black.paa",
@@ -2800,7 +2804,7 @@ class cfgVehicles
 	class MVS_Pack_Base: Clothing
 	{
 		scope = 0;
-		displayName = "MVS Combat Pack";
+		displayName = "Combat Pack";
 		descriptionShort = "The MVS Combat Pack - rugged, lightweight, and versatile.";
 		model = "ModularVestSystem\data\Pack\MVS_pack_g.p3d";
 		itemInfo[] = {"Clothing","Back"};
@@ -2873,7 +2877,7 @@ class cfgVehicles
 	class MVS_Assault_Pack_Tan: MVS_Pack_Base
 	{
 		scope = 2;
-		displayName = "MVS Raider Pack - Tan";
+		displayName = "Raider Pack - Tan";
 		descriptionShort = "The MVS Raider's Pack - a larger pack with additional storage. Can attach MVS admin or medical pouches, Raid pouches for additional tool storage, grenades, a rifle, and Identifier Patch.";
 		model = "ModularVestSystem\data\Pack\MVS_RaidPack_g.p3d";
 		attachments[] = {"Shoulder","VestGrenadeA","VestGrenadeB","modular_pouch_9","modular_pouch_12","Chemlight","WalkieTalkie","patch_02"};
@@ -2914,7 +2918,7 @@ class cfgVehicles
 	class MVS_Assault_Pack_OD: MVS_Assault_Pack_Tan
 	{
 		scope = 2;
-		displayName = "MVS Raider Pack - OD";
+		displayName = "Raider Pack - OD";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\RaidPack_co_OD.paa",
@@ -2926,7 +2930,7 @@ class cfgVehicles
 	class MVS_Assault_Pack_ERDL: MVS_Assault_Pack_Tan
 	{
 		scope = 2;
-		displayName = "MVS Raider Pack - ERDL";
+		displayName = "Raider Pack - ERDL";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\RaidPack_co_ERDL.paa",
@@ -2938,7 +2942,7 @@ class cfgVehicles
 	class MVS_Assault_Pack_Black: MVS_Assault_Pack_Tan
 	{
 		scope = 2;
-		displayName = "MVS Raider Pack - Black";
+		displayName = "Raider Pack - Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\RaidPack_co_Black.paa",
@@ -2950,7 +2954,7 @@ class cfgVehicles
 	class MVS_Assault_Pack_Snow: MVS_Assault_Pack_Tan
 	{
 		scope = 2;
-		displayName = "MVS Raider Pack - Snow";
+		displayName = "Raider Pack - Snow";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\RaidPack_co_Snow.paa",
@@ -2962,7 +2966,7 @@ class cfgVehicles
 	class MVS_Assault_Pack_Multicam: MVS_Assault_Pack_Tan
 	{
 		scope = 2;
-		displayName = "MVS Raider Pack - Multicam";
+		displayName = "Raider Pack - Multicam";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\RaidPack_co_MC.paa",
@@ -2974,7 +2978,7 @@ class cfgVehicles
 	class MVS_Assault_Pack_Multicam_Tropic: MVS_Assault_Pack_Tan
 	{
 		scope = 2;
-		displayName = "MVS Raider Pack - Multicam Tropic";
+		displayName = "Raider Pack - Multicam Tropic";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\RaidPack_co_MC_Tropic.paa",
@@ -2986,7 +2990,7 @@ class cfgVehicles
 	class MVS_Assault_Pack_Multicam_Black: MVS_Assault_Pack_Tan
 	{
 		scope = 2;
-		displayName = "MVS Raider Pack - Multicam Black";
+		displayName = "Raider Pack - Multicam Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\RaidPack_co_MC_Black.paa",
@@ -2997,7 +3001,7 @@ class cfgVehicles
 	class MVS_Sling_Pack_Base: MVS_Pack_Base
 	{
 		scope = 0;
-		displayName = "MVS Sling Pack";
+		displayName = "Sling Pack";
 		descriptionShort = "The MVS Sling Pack - a medium sized pack with atttachable storage. Can attach MVS admin or medical pouches, a rifle, and Identifier Patch.";
 		model = "ModularVestSystem\data\Pack\MVS_SlingPack_g.p3d";
 		attachments[] = {"Shoulder","modular_pouch_9","Chemlight","WalkieTalkie","patch_02"};
@@ -3039,7 +3043,7 @@ class cfgVehicles
 	class MVS_SlingPack_OD: MVS_Sling_Pack_Base
 	{
 		scope = 2;
-		displayName = "MVS Sling Pack - OD";
+		displayName = "Sling Pack - OD";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Sling_OD_co.paa",
@@ -3051,7 +3055,7 @@ class cfgVehicles
 	class MVS_SlingPack_Tan: MVS_Sling_Pack_Base
 	{
 		scope = 2;
-		displayName = "MVS Sling Pack - Tan";
+		displayName = "Sling Pack - Tan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Sling_Tan_co.paa",
@@ -3063,7 +3067,7 @@ class cfgVehicles
 	class MVS_SlingPack_Black: MVS_Sling_Pack_Base
 	{
 		scope = 2;
-		displayName = "MVS Sling Pack - Black";
+		displayName = "Sling Pack - Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Sling_Black_co.paa",
@@ -3075,7 +3079,7 @@ class cfgVehicles
 	class MVS_SlingPack_Multicam: MVS_Sling_Pack_Base
 	{
 		scope = 2;
-		displayName = "MVS Sling Pack - Multicam";
+		displayName = "Sling Pack - Multicam";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Sling_Multicam_co.paa",
@@ -3087,7 +3091,7 @@ class cfgVehicles
 	class MVS_SlingPack_Multicam_Black: MVS_Sling_Pack_Base
 	{
 		scope = 2;
-		displayName = "MVS Sling Pack - Multicam Black";
+		displayName = "Sling Pack - Multicam Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Sling_Multicam_Black_co.paa",
@@ -3099,7 +3103,7 @@ class cfgVehicles
 	class MVS_SlingPack_Multicam_Tropic: MVS_Sling_Pack_Base
 	{
 		scope = 2;
-		displayName = "MVS Sling Pack - Multicam Tropic";
+		displayName = "Sling Pack - Multicam Tropic";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Sling_Multicam_Tropic_co.paa",
@@ -3111,7 +3115,7 @@ class cfgVehicles
 	class MVS_SlingPack_ERDL: MVS_Sling_Pack_Base
 	{
 		scope = 2;
-		displayName = "MVS Sling Pack - ERDL";
+		displayName = "Sling Pack - ERDL";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Sling_ERDL_co.paa",
@@ -3123,7 +3127,7 @@ class cfgVehicles
 	class MVS_SlingPack_Snow: MVS_Sling_Pack_Base
 	{
 		scope = 2;
-		displayName = "MVS Sling Pack - Snow";
+		displayName = "Sling Pack - Snow";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Sling_Snow_co.paa",
@@ -3134,7 +3138,7 @@ class cfgVehicles
 	class MVS_Compact_Base: MVS_Pack_Base
 	{
 		scope = 0;
-		displayName = "MVS Compact Pack 1";
+		displayName = "Compact Pack 1";
 		descriptionShort = "The MVS Compact Pack - a smaller pack for light mobility. Can attach MVS admin or medical pouches, grenades, and Identifier Patch.";
 		model = "ModularVestSystem\data\Pack\MVS_Compact_1_g.p3d";
 		attachments[] = {"VestGrenadeB","modular_pouch_9","Chemlight","WalkieTalkie","patch_02"};
@@ -3176,7 +3180,7 @@ class cfgVehicles
 	class MVS_Compact_1_OD: MVS_Compact_Base
 	{
 		scope = 2;
-		displayName = "MVS Compact Pack 1 - OD";
+		displayName = "Compact Pack 1 - OD";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Compact_1_co.paa",
@@ -3187,7 +3191,7 @@ class cfgVehicles
 	class MVS_Compact_1_Tan: MVS_Compact_Base
 	{
 		scope = 2;
-		displayName = "MVS Compact Pack 1 - Tan";
+		displayName = "Compact Pack 1 - Tan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Compact_1_co_Tan.paa",
@@ -3198,7 +3202,7 @@ class cfgVehicles
 	class MVS_Compact_1_Black: MVS_Compact_Base
 	{
 		scope = 2;
-		displayName = "MVS Compact Pack 1 - Black";
+		displayName = "Compact Pack 1 - Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Compact_1_co_Black.paa",
@@ -3209,7 +3213,7 @@ class cfgVehicles
 	class MVS_Compact_1_ERDL: MVS_Compact_Base
 	{
 		scope = 2;
-		displayName = "MVS Compact Pack 1 - ERDL";
+		displayName = "Compact Pack 1 - ERDL";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Compact_1_co_ERDL.paa",
@@ -3220,7 +3224,7 @@ class cfgVehicles
 	class MVS_Compact_1_Snow: MVS_Compact_Base
 	{
 		scope = 2;
-		displayName = "MVS Compact Pack 1 - Snow";
+		displayName = "Compact Pack 1 - Snow";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Compact_1_co_Snow.paa",
@@ -3231,7 +3235,7 @@ class cfgVehicles
 	class MVS_Compact_1_Multicam: MVS_Compact_Base
 	{
 		scope = 2;
-		displayName = "MVS Compact Pack 1 - Multicam";
+		displayName = "Compact Pack 1 - Multicam";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Compact_1_co_MC.paa",
@@ -3242,7 +3246,7 @@ class cfgVehicles
 	class MVS_Compact_1_Multicam_Tropic: MVS_Compact_Base
 	{
 		scope = 2;
-		displayName = "MVS Compact Pack 1 - Multicam Tropic";
+		displayName = "Compact Pack 1 - Multicam Tropic";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Compact_1_co_MC_Tropic.paa",
@@ -3253,7 +3257,7 @@ class cfgVehicles
 	class MVS_Compact_1_Multicam_Black: MVS_Compact_Base
 	{
 		scope = 2;
-		displayName = "MVS Compact Pack 1 - Multicam Black";
+		displayName = "Compact Pack 1 - Multicam Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Compact_1_co_MC_Black.paa",
@@ -3264,7 +3268,7 @@ class cfgVehicles
 	class MVS_Compact_Base_2: MVS_Pack_Base
 	{
 		scope = 0;
-		displayName = "MVS Compact Pack 2";
+		displayName = "Compact Pack 2";
 		descriptionShort = "The MVS Compact Pack - a smaller pack for light mobility. Can attach MVS admin or medical pouches, grenades, and Identifier Patch.";
 		model = "ModularVestSystem\data\Pack\MVS_Compact_2_g.p3d";
 		itemSize[] = {5,7};
@@ -3310,7 +3314,7 @@ class cfgVehicles
 	class MVS_Compact_2_OD: MVS_Compact_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Compact Pack 2 - OD";
+		displayName = "Compact Pack 2 - OD";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Compact_2_co.paa",
@@ -3322,7 +3326,7 @@ class cfgVehicles
 	class MVS_Compact_2_Tan: MVS_Compact_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Compact Pack 2 - Tan";
+		displayName = "Compact Pack 2 - Tan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Compact_2_co_Tan.paa",
@@ -3334,7 +3338,7 @@ class cfgVehicles
 	class MVS_Compact_2_Black: MVS_Compact_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Compact Pack 2 - Black";
+		displayName = "Compact Pack 2 - Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Compact_2_co_Black.paa",
@@ -3346,7 +3350,7 @@ class cfgVehicles
 	class MVS_Compact_2_ERDL: MVS_Compact_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Compact Pack 2 - ERDL";
+		displayName = "Compact Pack 2 - ERDL";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Compact_2_co_ERDL.paa",
@@ -3358,7 +3362,7 @@ class cfgVehicles
 	class MVS_Compact_2_Snow: MVS_Compact_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Compact Pack 2 - Snow";
+		displayName = "Compact Pack 2 - Snow";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Compact_2_co_Snow.paa",
@@ -3370,7 +3374,7 @@ class cfgVehicles
 	class MVS_Compact_2_Multicam: MVS_Compact_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Compact Pack 2 - Multicam";
+		displayName = "Compact Pack 2 - Multicam";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Compact_2_co_MC.paa",
@@ -3382,7 +3386,7 @@ class cfgVehicles
 	class MVS_Compact_2_Multicam_Tropic: MVS_Compact_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Compact Pack 2 - Multicam Tropic";
+		displayName = "Compact Pack 2 - Multicam Tropic";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Compact_2_co_MC_Tropic.paa",
@@ -3394,7 +3398,7 @@ class cfgVehicles
 	class MVS_Compact_2_Multicam_Black: MVS_Compact_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Compact Pack 2 - Multicam Black";
+		displayName = "Compact Pack 2 - Multicam Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Compact_2_co_MC_Black.paa",
@@ -3406,7 +3410,7 @@ class cfgVehicles
 	class MVS_Rucksack_Base: Clothing
 	{
 		scope = 0;
-		displayName = "MVS Combat Pack";
+		displayName = "Combat Pack";
 		descriptionShort = "The MVS Rucksack - a large pack designed to withstand the elements and heavy weight. A rifle can be attached, along with Identifier Patch";
 		model = "ModularVestSystem\data\Pack\MVS_Rucksack_g.p3d";
 		inventorySlot[] = {"Back","MVS_pack"};
@@ -3478,7 +3482,7 @@ class cfgVehicles
 	class MVS_Rucksack_OD: MVS_Rucksack_Base
 	{
 		scope = 2;
-		displayName = "MVS Rucksack - OD";
+		displayName = "Rucksack - OD";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Rucksack_co.paa",
@@ -3489,7 +3493,7 @@ class cfgVehicles
 	class MVS_Rucksack_ERDL: MVS_Rucksack_Base
 	{
 		scope = 2;
-		displayName = "MVS Rucksack - ERDL";
+		displayName = "Rucksack - ERDL";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Rucksack_co_ERDL.paa",
@@ -3500,7 +3504,7 @@ class cfgVehicles
 	class MVS_Rucksack_Tan: MVS_Rucksack_Base
 	{
 		scope = 2;
-		displayName = "MVS Rucksack - Tan";
+		displayName = "Rucksack - Tan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Rucksack_co_Tan.paa",
@@ -3511,7 +3515,7 @@ class cfgVehicles
 	class MVS_Rucksack_Black: MVS_Rucksack_Base
 	{
 		scope = 2;
-		displayName = "MVS Rucksack - Black";
+		displayName = "Rucksack - Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Rucksack_co_Black.paa",
@@ -3522,7 +3526,7 @@ class cfgVehicles
 	class MVS_Rucksack_Snow: MVS_Rucksack_Base
 	{
 		scope = 2;
-		displayName = "MVS Rucksack - Snow";
+		displayName = "Rucksack - Snow";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Rucksack_co_Snow.paa",
@@ -3533,7 +3537,7 @@ class cfgVehicles
 	class MVS_Rucksack_Multicam: MVS_Rucksack_Base
 	{
 		scope = 2;
-		displayName = "MVS Rucksack - Multicam";
+		displayName = "Rucksack - Multicam";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Rucksack_co_MC.paa",
@@ -3544,7 +3548,7 @@ class cfgVehicles
 	class MVS_Rucksack_Multicam_Tropic: MVS_Rucksack_Base
 	{
 		scope = 2;
-		displayName = "MVS Rucksack - Multicam Tropic";
+		displayName = "Rucksack - Multicam Tropic";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Rucksack_co_MC_Tropic.paa",
@@ -3555,7 +3559,7 @@ class cfgVehicles
 	class MVS_Rucksack_Multicam_Black: MVS_Rucksack_Base
 	{
 		scope = 2;
-		displayName = "MVS Rucksack - Multicam Black";
+		displayName = "Rucksack - Multicam Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\MVS_Rucksack_co_MC_Black.paa",
@@ -3566,7 +3570,7 @@ class cfgVehicles
 	class MVS_Pack_OD: MVS_Pack_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Pack - OD";
+		displayName = "Combat Pack - OD";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\pack_co.paa",
@@ -3577,7 +3581,7 @@ class cfgVehicles
 	class MVS_Pack_ERDL: MVS_Pack_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Pack - ERDL";
+		displayName = "Combat Pack - ERDL";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\pack_co_ERDL.paa",
@@ -3588,7 +3592,7 @@ class cfgVehicles
 	class MVS_Pack_Tan: MVS_Pack_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Pack - Tan";
+		displayName = "Combat Pack - Tan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\pack_co_Tan.paa",
@@ -3599,7 +3603,7 @@ class cfgVehicles
 	class MVS_Pack_Black: MVS_Pack_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Pack - Black";
+		displayName = "Combat Pack - Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\pack_co_Black.paa",
@@ -3610,7 +3614,7 @@ class cfgVehicles
 	class MVS_Pack_Snow: MVS_Pack_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Pack - Snow";
+		displayName = "Combat Pack - Snow";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\pack_co_snow.paa",
@@ -3621,7 +3625,7 @@ class cfgVehicles
 	class MVS_Pack_Multicam: MVS_Pack_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Pack - Multicam";
+		displayName = "Combat Pack - Multicam";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\pack_co_MC.paa",
@@ -3632,7 +3636,7 @@ class cfgVehicles
 	class MVS_Pack_Multicam_Tropic: MVS_Pack_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Pack - Multicam Tropic";
+		displayName = "Combat Pack - Multicam Tropic";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\pack_co_MC_Tropic.paa",
@@ -3643,7 +3647,7 @@ class cfgVehicles
 	class MVS_Pack_Multicam_Black: MVS_Pack_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Pack - Multicam Black";
+		displayName = "Combat Pack - Multicam Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Pack\pack_co_MC_Black.paa",
@@ -3654,7 +3658,7 @@ class cfgVehicles
 	class Modular_Belt_Base: Clothing
 	{
 		scope = 0;
-		displayName = "MVS Combat Belt";
+		displayName = "Combat Belt";
 		descriptionShort = "The MVS Combat Belt, a rugged piece of equipment with plenty of molle space for pouches and warfighter tools";
 		model = "ModularVestSystem\data\Belt\ModularBeltSystem_g.p3d";
 		attachments[] = {"Chemlight","modular_pouch_2","VestPouch","Belt_Back","modular_pouch_10","Belt_Right","WalkieTalkie"};
@@ -3723,7 +3727,7 @@ class cfgVehicles
 	class MVS_Belt_OD: Modular_Belt_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Belt - OD";
+		displayName = "Combat Belt - OD";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Belt\belt_co.paa",
@@ -3734,7 +3738,7 @@ class cfgVehicles
 	class MVS_Belt_ERDL: Modular_Belt_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Belt - ERDL";
+		displayName = "Combat Belt - ERDL";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Belt\belt_co_ERDL.paa",
@@ -3745,7 +3749,7 @@ class cfgVehicles
 	class MVS_Belt_Tan: Modular_Belt_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Belt - Tan";
+		displayName = "Combat Belt - Tan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Belt\belt_co_Tan.paa",
@@ -3756,7 +3760,7 @@ class cfgVehicles
 	class MVS_Belt_Black: Modular_Belt_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Belt - Black";
+		displayName = "Combat Belt - Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Belt\belt_co_Black.paa",
@@ -3767,7 +3771,7 @@ class cfgVehicles
 	class MVS_Belt_Snow: Modular_Belt_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Belt - Snow";
+		displayName = "Combat Belt - Snow";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Belt\belt_co_snow.paa",
@@ -3778,7 +3782,7 @@ class cfgVehicles
 	class MVS_Belt_Multicam: Modular_Belt_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Belt - Multicam";
+		displayName = "Combat Belt - Multicam";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Belt\belt_co_MC.paa",
@@ -3789,7 +3793,7 @@ class cfgVehicles
 	class MVS_Belt_Multicam_Black: Modular_Belt_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Belt - Multicam Black";
+		displayName = "Combat Belt - Multicam Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Belt\belt_co_MC_Black.paa",
@@ -3800,7 +3804,7 @@ class cfgVehicles
 	class MVS_Belt_Multicam_Tropic: Modular_Belt_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Belt - Multicam Tropic";
+		displayName = "Combat Belt - Multicam Tropic";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Belt\belt_co_MC_Tropic.paa",
@@ -3808,11 +3812,10 @@ class cfgVehicles
 			"ModularVestSystem\data\Belt\belt_co_MC_Tropic.paa"
 		};
 	};
-	class PlateCarrierHolster;
 	class MVS_Holster_OD: PlateCarrierHolster
 	{
-		displayName = "MVS Holster - OD";
-		descriptionShort = "MVS Holster - OD";
+		displayName = "Holster - OD";
+		descriptionShort = "Holster - OD";
 		scope=2;
 		hiddenSelections[] = {"camoGround","zbytek"};
 		hiddenSelectionsTextures[] = 
@@ -3823,8 +3826,8 @@ class cfgVehicles
 	};
 	class MVS_Holster_ERDL: PlateCarrierHolster
 	{
-		displayName = "MVS Holster - ERDL";
-		descriptionShort = "MVS Holster - ERDL";
+		displayName = "Holster - ERDL";
+		descriptionShort = "Holster - ERDL";
 		scope=2;
 		hiddenSelections[] = {"camoGround","zbytek"};
 		hiddenSelectionsTextures[] = 
@@ -3835,8 +3838,8 @@ class cfgVehicles
 	};
 	class MVS_Holster_Tan: PlateCarrierHolster
 	{
-		displayName = "MVS Holster - Tan";
-		descriptionShort = "MVS Holster - Tan";
+		displayName = "Holster - Tan";
+		descriptionShort = "Holster - Tan";
 		scope=2;
 		hiddenSelections[] = {"camoGround","zbytek"};
 		hiddenSelectionsTextures[] = 
@@ -3847,8 +3850,8 @@ class cfgVehicles
 	};
 	class MVS_Holster_Black: PlateCarrierHolster
 	{
-		displayName = "MVS Holster - Black";
-		descriptionShort = "MVS Holster - Black";
+		displayName = "Holster - Black";
+		descriptionShort = "Holster - Black";
 		scope=2;
 		hiddenSelections[] = {"camoGround","zbytek"};
 		hiddenSelectionsTextures[] = 
@@ -3859,8 +3862,8 @@ class cfgVehicles
 	};
 	class MVS_Holster_Snow: PlateCarrierHolster
 	{
-		displayName = "MVS Holster - Snow";
-		descriptionShort = "MVS Holster - Snow";
+		displayName = "Holster - Snow";
+		descriptionShort = "Holster - Snow";
 		scope=2;
 		hiddenSelections[] = {"camoGround","zbytek"};
 		hiddenSelectionsTextures[] = 
@@ -3871,8 +3874,8 @@ class cfgVehicles
 	};
 	class MVS_Holster_Multicam: PlateCarrierHolster
 	{
-		displayName = "MVS Holster - Multicam";
-		descriptionShort = "MVS Holster - Multicam";
+		displayName = "Holster - Multicam";
+		descriptionShort = "Holster - Multicam";
 		scope=2;
 		hiddenSelections[] = {"camoGround","zbytek"};
 		hiddenSelectionsTextures[] = 
@@ -3883,8 +3886,8 @@ class cfgVehicles
 	};
 	class MVS_Holster_Multicam_Black: PlateCarrierHolster
 	{
-		displayName = "MVS Holster - Multicam Black";
-		descriptionShort = "MVS Holster - Multicam Black";
+		displayName = "Holster - Multicam Black";
+		descriptionShort = "Holster - Multicam Black";
 		scope=2;
 		hiddenSelections[] = {"camoGround","zbytek"};
 		hiddenSelectionsTextures[] = 
@@ -3895,8 +3898,8 @@ class cfgVehicles
 	};
 	class MVS_Holster_Multicam_Tropic: PlateCarrierHolster
 	{
-		displayName = "MVS Holster - Multicam Tropic";
-		descriptionShort = "MVS Holster - Multicam Tropic";
+		displayName = "Holster - Multicam Tropic";
+		descriptionShort = "Holster - Multicam Tropic";
 		scope=2;
 		hiddenSelections[] = {"camoGround","zbytek"};
 		hiddenSelectionsTextures[] = 
@@ -3909,7 +3912,7 @@ class cfgVehicles
 	class MVS_Sheath_Base: NylonKnifeSheath
 	{
 		scope = 0;
-		displayName = "MVS Sheath";
+		displayName = "Sheath";
 		descriptionShort = "$STR_cfgvehicles_knifesheath1";
 		model = "ModularVestSystem\data\Belt\knife_sheath.p3d";
 		hiddenSelections[] = {"zbytek"};
@@ -3942,8 +3945,8 @@ class cfgVehicles
 	};
 	class MVS_Sheath_OD: MVS_Sheath_Base
 	{
-		displayName = "MVS Sheath - OD";
-		descriptionShort = "MVS Sheath - OD";
+		displayName = "Sheath - OD";
+		descriptionShort = "Sheath - OD";
 		scope=2;
 		hiddenSelectionsTextures[] = 
 		{
@@ -3952,8 +3955,8 @@ class cfgVehicles
 	};
 	class MVS_Sheath_ERDL: MVS_Sheath_Base
 	{
-		displayName = "MVS Sheath - ERDL";
-		descriptionShort = "MVS Sheath - ERDL";
+		displayName = "Sheath - ERDL";
+		descriptionShort = "Sheath - ERDL";
 		scope=2;
 		hiddenSelectionsTextures[] = 
 		{
@@ -3962,8 +3965,8 @@ class cfgVehicles
 	};
 	class MVS_Sheath_Tan: MVS_Sheath_Base
 	{
-		displayName = "MVS Sheath - Tan";
-		descriptionShort = "MVS Sheath - Tan";
+		displayName = "Sheath - Tan";
+		descriptionShort = "Sheath - Tan";
 		scope=2;
 		hiddenSelectionsTextures[] = 
 		{
@@ -3973,8 +3976,8 @@ class cfgVehicles
 	};
 	class MVS_Sheath_Black: MVS_Sheath_Base
 	{
-		displayName = "MVS Sheath - Black";
-		descriptionShort = "MVS Sheath - Black";
+		displayName = "Sheath - Black";
+		descriptionShort = "Sheath - Black";
 		scope=2;
 		hiddenSelectionsTextures[] = 
 		{
@@ -3984,8 +3987,8 @@ class cfgVehicles
 	};
 	class MVS_Sheath_Snow: MVS_Sheath_Base
 	{
-		displayName = "MVS Sheath - Snow";
-		descriptionShort = "MVS Sheath - Snow";
+		displayName = "Sheath - Snow";
+		descriptionShort = "Sheath - Snow";
 		scope=2;
 		hiddenSelectionsTextures[] = 
 		{
@@ -3994,8 +3997,8 @@ class cfgVehicles
 	};
 	class MVS_Sheath_Multicam: MVS_Sheath_Base
 	{
-		displayName = "MVS Sheath - Multicam";
-		descriptionShort = "MVS Sheath - Multicam";
+		displayName = "Sheath - Multicam";
+		descriptionShort = "Sheath - Multicam";
 		scope=2;
 		hiddenSelectionsTextures[] = 
 		{
@@ -4005,8 +4008,8 @@ class cfgVehicles
 	};
 	class MVS_Sheath_Multicam_Tropic: MVS_Sheath_Base
 	{
-		displayName = "MVS Sheath - Multicam Tropic";
-		descriptionShort = "MVS Sheath - Multicam Tropic";
+		displayName = "Sheath - Multicam Tropic";
+		descriptionShort = "Sheath - Multicam Tropic";
 		scope=2;
 		hiddenSelectionsTextures[] = 
 		{
@@ -4015,8 +4018,8 @@ class cfgVehicles
 	};
 	class MVS_Sheath_Multicam_Black: MVS_Sheath_Base
 	{
-		displayName = "MVS Sheath - Multicam Black";
-		descriptionShort = "MVS Sheath - Multicam Black";
+		displayName = "Sheath - Multicam Black";
+		descriptionShort = "Sheath - Multicam Black";
 		scope=2;
 		hiddenSelectionsTextures[] = 
 		{
@@ -4036,7 +4039,7 @@ class cfgVehicles
 	{
 		inventorySlot[] = {"Pliers","Pliers1"};
 	};
-	class Morphine: Container_Base
+	class Morphine: Inventory_Base
 	{
 		inventorySlot[] = {"morphine","epinephrine"};
 	};
@@ -4044,7 +4047,7 @@ class cfgVehicles
 	{
 		inventorySlot[] = {"BatteryD","MVSBattery1","MVSBattery2"};
 	};
-	class Epinephrine: Container_Base
+	class Epinephrine: Inventory_Base
 	{
 		inventorySlot[] = {"epinephrine","morphine"};
 	};
@@ -4052,116 +4055,7 @@ class cfgVehicles
 	{
 		inventorySlot[] = {"MedicalBandage"};
 	};
-	class WoodenCrate;
-	class ArmorRack_Kit: WoodenCrate
-	{
-		scope = 2;
-		displayName = "MVS Armor Rack Kit";
-		descriptionShort = "Armor Rack Kit designed to display Modular Vest System (MVS) components";
-		model = "ModularVestSystem\data\ArmorRack\kit_base.p3d";
-		itemSize[] = {5,3};
-		carveNavmesh = 1;
-		canBeDigged = 0;
-		simulation = "inventoryItem";
-		physLayer = "item_small";
-		SingleUseActions[] = {527};
-		ContinuousActions[] = {231};
-		rotationFlags = 2;
-		InteractActions[] = {};
-		weight = 300;
-		itemBehaviour = 2;
-		class Cargo{};
-	};
-	class ArmorRack_Base: Container_Base
-	{
-		scope = 0;
-		destroyOnEmpty = 0;
-		varQuantityDestroyOnMin = 0;
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints = 100000000000;
-					healthLevels[] = {{1.0,{"DZ\gear\camping\data\spotlight.rvmat"}},{0.7,{"DZ\gear\camping\data\spotlight.rvmat"}},{0.5,{"DZ\gear\camping\data\spotlight_damage.rvmat"}},{0.3,{"DZ\gear\camping\data\spotlight_damage.rvmat"}},{0.0,{"DZ\gear\camping\data\spotlight_destruct.rvmat"}}};
-				};
-			};
-		};
-	};
-	class Armor_Rack: ArmorRack_Base
-	{
-		scope = 2;
-		displayName = "MVS Armor Rack Kit";
-		descriptionShort = "Armor Rack Kit designed to display Modular Vest System (MVS) components";
-		model = "ModularVestSystem\data\ArmorRack\ArmorRack.p3d";
-		bounding = "BSphere";
-		overrideDrawArea = "3.0";
-		forceFarBubble = "true";
-		handheld = "true";
-		carveNavmesh = 1;
-		canBeDigged = 0;
-		weight = 50000;
-		itemSize[] = {10,10};
-		physLayer = "item_large";
-		rotationFlags = 0;
-		class Cargo
-		{
-			itemsCargoSize[] = {10,2};
-			openable = 0;
-			allowOwnedCargoManipulation = 1;
-		};
-		attachments[] = {"MVS_helmet","MVS_mask","MVS_vest","MVS_belt","MVS_pack","Shoulder"};
-		class GUIInventoryAttachmentsProps
-		{
-			class MVSHelmet
-			{
-				name = "MVS Helmet";
-				description = "";
-				attachmentSlots[] = {"MVS_helmet"};
-				icon = "missing";
-			};
-			class MVSMASK
-			{
-				name = "MVS S10 Respirator";
-				description = "";
-				attachmentSlots[] = {"MVS_mask"};
-				icon = "missing";
-			};			
-			class MVSRig
-			{
-				name = "MVS Rig";
-				description = "";
-				attachmentSlots[] = {"MVS_vest"};
-				icon = "missing";
-			};
-			class MVSBelt
-			{
-				name = "MVS Belt";
-				description = "";
-				attachmentSlots[] = {"MVS_belt"};
-				icon = "missing";
-			};
-			class MVSPack
-			{
-				name = "MVS Pack";
-				description = "";
-				attachmentSlots[] = {"MVS_pack"};
-				icon = "missing";
-			};
-			class MVSWeapon
-			{
-				name = "Rifle";
-				description = "";
-				attachmentSlots[] = {"Shoulder"};
-				icon = "missing";
-			};
-		};
-	};
-	class ArmorRack_Holo: Armor_Rack
-	{
-		scope = 0;
-	};
+	
 	class MVS_GasMaskBase: GP5GasMask{};
 	class MVS_S10Respirator: MVS_GasMaskBase
 	{
@@ -4453,7 +4347,7 @@ class cfgVehicles
 	class MVS_Balaclava_Base: Clothing
 	{
 		scope = 0;
-		displayName = "MVS Balaclava";
+		displayName = "Balaclava";
 		descriptionShort = "A mask used for concealing one's identity... spooky right?";
 		model = "ModularVestSystem\data\s10\MVS_Balaclava_g.p3d";
 		rotationFlags=0;
@@ -4526,7 +4420,7 @@ class cfgVehicles
 	class MVS_Balaclava_Wraith: MVS_Balaclava_Base
 	{
 		scope = 2;
-		displayName = "MVS Wraith Mask";
+		displayName = "Wraith Mask";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\s10\MVS_Balaclava2_co_Wraith.paa",
@@ -4538,7 +4432,7 @@ class cfgVehicles
 	class MVS_Balaclava2_Base: Clothing
 	{
 		scope = 0;
-		displayName = "MVS Balaclava 2";
+		displayName = "Balaclava 2";
 		descriptionShort = "A mask used for concealing one's identity... spooky right?";
 		model = "ModularVestSystem\data\s10\MVS_Balaclava2_g.p3d";
 		itemInfo[] = {"Clothing","Mask"};
@@ -4610,7 +4504,7 @@ class cfgVehicles
 	class MVS_Balaclava_OD: MVS_Balaclava2_Base
 	{
 		scope = 2;
-		displayName = "MVS Balaclava - OD";
+		displayName = "Balaclava - OD";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\s10\MVS_Balaclava2_co.paa",
@@ -4621,7 +4515,7 @@ class cfgVehicles
 	class MVS_Balaclava_Tan: MVS_Balaclava2_Base
 	{
 		scope = 2;
-		displayName = "MVS Balaclava - Tan";
+		displayName = "Balaclava - Tan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\s10\MVS_Balaclava2_co_Tan.paa",
@@ -4632,7 +4526,7 @@ class cfgVehicles
 	class MVS_Balaclava_Black: MVS_Balaclava2_Base
 	{
 		scope = 2;
-		displayName = "MVS Balaclava - Black";
+		displayName = "Balaclava - Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\s10\MVS_Balaclava2_co_Black.paa",
@@ -4643,7 +4537,7 @@ class cfgVehicles
 	class MVS_Balaclava_Snow: MVS_Balaclava2_Base
 	{
 		scope = 2;
-		displayName = "MVS Balaclava - Snow";
+		displayName = "Balaclava - Snow";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\s10\MVS_Balaclava2_co_Snow.paa",
@@ -4654,7 +4548,7 @@ class cfgVehicles
 	class MVS_Balaclava3_Base: Clothing
 	{
 		scope = 0;
-		displayName = "MVS Balaclava 3";
+		displayName = "Balaclava 3";
 		descriptionShort = "A mask used for concealing one's identity... spooky right?";
 		model = "ModularVestSystem\data\s10\MVS_Balaclava3_g.p3d";
 		inventorySlot[] = {"Mask"};
@@ -4726,7 +4620,7 @@ class cfgVehicles
 	class MVS_Facemask_OD: MVS_Balaclava3_Base
 	{
 		scope = 2;
-		displayName = "MVS Facemask - OD";
+		displayName = "Facemask - OD";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\s10\MVS_Balaclava2_co.paa",
@@ -4737,7 +4631,7 @@ class cfgVehicles
 	class MVS_Facemask_Tan: MVS_Balaclava3_Base
 	{
 		scope = 2;
-		displayName = "MVS Facemask - Tan";
+		displayName = "Facemask - Tan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\s10\MVS_Balaclava2_co_Tan.paa",
@@ -4748,7 +4642,7 @@ class cfgVehicles
 	class MVS_Facemask_Black: MVS_Balaclava3_Base
 	{
 		scope = 2;
-		displayName = "MVS Facemask - Black";
+		displayName = "Facemask - Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\s10\MVS_Balaclava2_co_Black.paa",
@@ -4759,7 +4653,7 @@ class cfgVehicles
 	class MVS_Facemask_Snow: MVS_Balaclava3_Base
 	{
 		scope = 2;
-		displayName = "MVS Facemask - Snow";
+		displayName = "Facemask - Snow";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\s10\MVS_Balaclava2_co_Snow.paa",
@@ -4770,7 +4664,7 @@ class cfgVehicles
 	class MVS_Shroud_Base: Clothing
 	{
 		scope = 0;
-		displayName = "MVS Shroud";
+		displayName = "Shroud";
 		descriptionShort = "A thin veil of netting used to break up outlines in the brush.";
 		model = "ModularVestSystem\data\s10\MVS_Shroud_g.p3d";
 		inventorySlot[] = {"Mask"};
@@ -4851,7 +4745,7 @@ class cfgVehicles
 	class MVS_Shroud_OD: MVS_Shroud_Base
 	{
 		scope = 2;
-		displayName = "MVS Shroud - OD";
+		displayName = "Shroud - OD";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\s10\MVS_Shroud_co.paa",
@@ -4862,7 +4756,7 @@ class cfgVehicles
 	class MVS_Shroud_Tan: MVS_Shroud_Base
 	{
 		scope = 2;
-		displayName = "MVS Shroud - Tan";
+		displayName = "Shroud - Tan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\s10\MVS_Shroud_co_Tan.paa",
@@ -4873,7 +4767,7 @@ class cfgVehicles
 	class MVS_Shroud_Black: MVS_Shroud_Base
 	{
 		scope = 2;
-		displayName = "MVS Shroud - Black";
+		displayName = "Shroud - Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\s10\MVS_Shroud_co_Black.paa",
@@ -4884,7 +4778,7 @@ class cfgVehicles
 	class MVS_Beard_01: BalaclavaMask_ColorBase
 	{
 		scope = 0;
-		displayName = "MVS Beard";
+		displayName = "Beard";
 		descriptionShort = "...";
 		inventorySlot[] = {"Mask"};
 		itemSize[] = {3,2};
@@ -4906,7 +4800,7 @@ class cfgVehicles
 	class MVS_Beard_01_Brown: MVS_Beard_01
 	{
 		scope = 2;
-		displayName = "MVS Beard - Brown";
+		displayName = "Beard - Brown";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Beards\MVS_Beard_01_co.paa",
@@ -4916,7 +4810,7 @@ class cfgVehicles
 	class MVS_Beard_01_LightBrown: MVS_Beard_01
 	{
 		scope = 2;
-		displayName = "MVS Beard - Light Brown";
+		displayName = "Beard - Light Brown";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Beards\MVS_Beard_01_co_LightBrown.paa",
@@ -4926,7 +4820,7 @@ class cfgVehicles
 	class MVS_Beard_01_Black: MVS_Beard_01
 	{
 		scope = 2;
-		displayName = "MVS Beard 01 - Black";
+		displayName = "Beard 01 - Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Beards\MVS_Beard_01_co_Black.paa",
@@ -4936,7 +4830,7 @@ class cfgVehicles
 	class MVS_Beard_01_Blonde: MVS_Beard_01
 	{
 		scope = 2;
-		displayName = "MVS Beard 01 - Blonde";
+		displayName = "Beard 01 - Blonde";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Beards\MVS_Beard_01_co_Blonde.paa",
@@ -4946,7 +4840,7 @@ class cfgVehicles
 	class MVS_Beard_01_White: MVS_Beard_01
 	{
 		scope = 2;
-		displayName = "MVS Beard 01 - White";
+		displayName = "Beard 01 - White";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Beards\MVS_Beard_01_co_White.paa",
@@ -4956,7 +4850,7 @@ class cfgVehicles
 	class MVS_Beard_02: BalaclavaMask_ColorBase
 	{
 		scope = 0;
-		displayName = "MVS Beard";
+		displayName = "Beard";
 		descriptionShort = "...";
 		inventorySlot[] = {"Mask"};
 		rotationFlags=0;
@@ -4978,7 +4872,7 @@ class cfgVehicles
 	class MVS_Beard_02_Brown: MVS_Beard_02
 	{
 		scope = 2;
-		displayName = "MVS Beard - Brown";
+		displayName = "Beard - Brown";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Beards\MVS_Beard_02_co.paa",
@@ -4988,7 +4882,7 @@ class cfgVehicles
 	class MVS_Beard_02_LightBrown: MVS_Beard_02
 	{
 		scope = 2;
-		displayName = "MVS Beard - Light Brown";
+		displayName = "Beard - Light Brown";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Beards\MVS_Beard_02_co_LightBrown.paa",
@@ -4998,7 +4892,7 @@ class cfgVehicles
 	class MVS_Beard_02_Black: MVS_Beard_02
 	{
 		scope = 2;
-		displayName = "MVS Beard 02 - Black";
+		displayName = "Beard 02 - Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Beards\MVS_Beard_02_co_Black.paa",
@@ -5008,7 +4902,7 @@ class cfgVehicles
 	class MVS_Beard_02_Blonde: MVS_Beard_02
 	{
 		scope = 2;
-		displayName = "MVS Beard 02 - Blonde";
+		displayName = "Beard 02 - Blonde";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Beards\MVS_Beard_02_co_Blonde.paa",
@@ -5018,7 +4912,7 @@ class cfgVehicles
 	class MVS_Beard_02_White: MVS_Beard_02
 	{
 		scope = 2;
-		displayName = "MVS Beard 02 - White";
+		displayName = "Beard 02 - White";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Beards\MVS_Beard_02_co_White.paa",
@@ -5028,7 +4922,7 @@ class cfgVehicles
 	class MVS_Beard_03: BalaclavaMask_ColorBase
 	{
 		scope = 0;
-		displayName = "MVS Beard";
+		displayName = "Beard";
 		descriptionShort = "...";
 		inventorySlot[] = {"Mask"};
 		rotationFlags=0;
@@ -5050,7 +4944,7 @@ class cfgVehicles
 	class MVS_Beard_03_Brown: MVS_Beard_03
 	{
 		scope = 2;
-		displayName = "MVS Beard - Brown";
+		displayName = "Beard - Brown";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Beards\MVS_Beard_02_co.paa",
@@ -5060,7 +4954,7 @@ class cfgVehicles
 	class MVS_Beard_03_LightBrown: MVS_Beard_03
 	{
 		scope = 2;
-		displayName = "MVS Beard - Light Brown";
+		displayName = "Beard - Light Brown";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Beards\MVS_Beard_02_co_LightBrown.paa",
@@ -5070,7 +4964,7 @@ class cfgVehicles
 	class MVS_Beard_03_Black: MVS_Beard_03
 	{
 		scope = 2;
-		displayName = "MVS Beard 02 - Black";
+		displayName = "Beard 02 - Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Beards\MVS_Beard_02_co_Black.paa",
@@ -5080,7 +4974,7 @@ class cfgVehicles
 	class MVS_Beard_03_Blonde: MVS_Beard_03
 	{
 		scope = 2;
-		displayName = "MVS Beard 02 - Blonde";
+		displayName = "Beard 02 - Blonde";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Beards\MVS_Beard_02_co_Blonde.paa",
@@ -5090,7 +4984,7 @@ class cfgVehicles
 	class MVS_Beard_03_White: MVS_Beard_03
 	{
 		scope = 2;
-		displayName = "MVS Beard 02 - White";
+		displayName = "Beard 02 - White";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Beards\MVS_Beard_02_co_White.paa",
@@ -5100,7 +4994,7 @@ class cfgVehicles
 	class MVS_Cap_Base: Clothing
 	{
 		scope = 0;
-		displayName = "MVS Patrol Cap";
+		displayName = "Patrol Cap";
 		descriptionShort = "The MVS Patrol Cap - Identifier Patch can be attached.";
 		model = "ModularVestSystem\data\Helmets\MVS_Cap_g.p3d";
 		attachments[] = {"patch_04"};
@@ -5178,7 +5072,7 @@ class cfgVehicles
 	class MVS_Cap_OD: MVS_Cap_Base
 	{
 		scope = 2;
-		displayName = "MVS Patrol Cap - OD";
+		displayName = "Patrol Cap - OD";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\MVS_Cap_co.paa",
@@ -5189,7 +5083,7 @@ class cfgVehicles
 	class MVS_Cap_Tan: MVS_Cap_Base
 	{
 		scope = 2;
-		displayName = "MVS Patrol Cap - Tan";
+		displayName = "Patrol Cap - Tan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\MVS_Cap_co_Tan.paa",
@@ -5200,7 +5094,7 @@ class cfgVehicles
 	class MVS_Cap_Black: MVS_Cap_Base
 	{
 		scope = 2;
-		displayName = "MVS Patrol Cap - Black";
+		displayName = "Patrol Cap - Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\MVS_Cap_co_Black.paa",
@@ -5211,7 +5105,7 @@ class cfgVehicles
 	class MVS_Cap_Multicam: MVS_Cap_Base
 	{
 		scope = 2;
-		displayName = "MVS Patrol Cap - Multicam";
+		displayName = "Patrol Cap - Multicam";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\MVS_Cap_co_MC.paa",
@@ -5222,7 +5116,7 @@ class cfgVehicles
 	class MVS_Cap_Multicam_Black: MVS_Cap_Base
 	{
 		scope = 2;
-		displayName = "MVS Patrol Cap - Multicam Black";
+		displayName = "Patrol Cap - Multicam Black";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\MVS_Cap_co_MC_Black.paa",
@@ -5233,7 +5127,7 @@ class cfgVehicles
 	class MVS_Cap_Multicam_Tropic: MVS_Cap_Base
 	{
 		scope = 2;
-		displayName = "MVS Patrol Cap - Multicam Tropic";
+		displayName = "Patrol Cap - Multicam Tropic";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\MVS_Cap_co_MC_Tropic.paa",
@@ -5244,7 +5138,7 @@ class cfgVehicles
 	class MVS_Cap_ERDL: MVS_Cap_Base
 	{
 		scope = 2;
-		displayName = "MVS Patrol Cap - ERDL";
+		displayName = "Patrol Cap - ERDL";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\MVS_Cap_co_ERDL.paa",
@@ -5255,7 +5149,7 @@ class cfgVehicles
 	class MVS_Cap_Snow: MVS_Cap_Base
 	{
 		scope = 2;
-		displayName = "MVS Patrol Cap - Snow";
+		displayName = "Patrol Cap - Snow";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\Helmets\MVS_Cap_co_Snow.paa",
@@ -5266,7 +5160,7 @@ class cfgVehicles
 	class MVS_CombatPants_Base: Clothing
 	{
 		scope=0;
-		displayName="MVS Combat Pants";
+		displayName="Combat Pants";
 		descriptionShort="Designed as a no-compromise assault uniform, these pants are aggressively cut for maximum mobility.";
 		model="ModularVestSystem\data\Uniforms\MVS_CombatPants_g.p3d";
 		ContinuouActions[] = {"AT_WRING_CLOTHES"};
@@ -5337,7 +5231,7 @@ class cfgVehicles
 	class MVS_CombatPants_Tan: MVS_CombatPants_Base
 	{
 		scope=2;
-		displayName="MVS Combat Pants - Tan";
+		displayName="Combat Pants - Tan";
 		hiddenSelectionsTextures[]=
 		{
 			"ModularVestSystem\data\Uniforms\MVS_CombatPants_Tan_co.paa",
@@ -5348,7 +5242,7 @@ class cfgVehicles
 	class MVS_CombatPants_OD: MVS_CombatPants_Base
 	{
 		scope=2;
-		displayName="MVS Combat Pants - OD";
+		displayName="Combat Pants - OD";
 		hiddenSelectionsTextures[]=
 		{
 			"ModularVestSystem\data\Uniforms\MVS_CombatPants_OD.paa",
@@ -5359,7 +5253,7 @@ class cfgVehicles
 	class MVS_CombatPants_Black: MVS_CombatPants_Base
 	{
 		scope=2;
-		displayName="MVS Combat Pants - Black";
+		displayName="Combat Pants - Black";
 		hiddenSelectionsTextures[]=
 		{
 			"ModularVestSystem\data\Uniforms\MVS_CombatPants_Black.paa",
@@ -5370,7 +5264,7 @@ class cfgVehicles
 	class MVS_CombatPants_ERDL: MVS_CombatPants_Base
 	{
 		scope=2;
-		displayName="MVS Combat Pants - ERDL";
+		displayName="Combat Pants - ERDL";
 		hiddenSelectionsTextures[]=
 		{
 			"ModularVestSystem\data\Uniforms\MVS_CombatPants_ERDL.paa",
@@ -5381,7 +5275,7 @@ class cfgVehicles
 	class MVS_CombatPants_Snow: MVS_CombatPants_Base
 	{
 		scope=2;
-		displayName="MVS Combat Pants - Snow";
+		displayName="Combat Pants - Snow";
 		hiddenSelectionsTextures[]=
 		{
 			"ModularVestSystem\data\Uniforms\MVS_CombatPants_Snow.paa",
@@ -5392,7 +5286,7 @@ class cfgVehicles
 	class MVS_CombatPants_Multicam: MVS_CombatPants_Base
 	{
 		scope=2;
-		displayName="MVS Combat Pants - Multicam";
+		displayName="Combat Pants - Multicam";
 		hiddenSelectionsTextures[]=
 		{
 			"ModularVestSystem\data\Uniforms\MVS_CombatPants_MC.paa",
@@ -5403,7 +5297,7 @@ class cfgVehicles
 	class MVS_CombatPants_Multicam_Tropic: MVS_CombatPants_Base
 	{
 		scope=2;
-		displayName="MVS Combat Pants - Multicam Tropic";
+		displayName="Combat Pants - Multicam Tropic";
 		hiddenSelectionsTextures[]=
 		{
 			"ModularVestSystem\data\Uniforms\MVS_CombatPants_MC_Tropic.paa",
@@ -5414,7 +5308,7 @@ class cfgVehicles
 	class MVS_CombatPants_Multicam_Black: MVS_CombatPants_Base
 	{
 		scope=2;
-		displayName="MVS Combat Pants - Multicam Black";
+		displayName="Combat Pants - Multicam Black";
 		hiddenSelectionsTextures[]=
 		{
 			"ModularVestSystem\data\Uniforms\MVS_CombatPants_MC_Black.paa",
@@ -5425,7 +5319,7 @@ class cfgVehicles
 	class MVS_CombatShirt_Base: Clothing
 	{
 		scope=0;
-		displayName="MVS Combat Shirt";
+		displayName="Combat Shirt";
 		descriptionShort="The MVS Combat Shirt is a combat-specific garment specifically designed to be worn under body armor.";
 		model="ModularVestSystem\data\Uniforms\MVS_CombatShirt_g.p3d";
 		quickBarBonus=1;
@@ -5493,7 +5387,7 @@ class cfgVehicles
 	class MVS_CombatShirt_Tan: MVS_CombatShirt_Base
 	{
 		scope=2;
-		displayName="MVS Combat Shirt - Tan";
+		displayName="Combat Shirt - Tan";
 		visibilityModifier=0.7;
 		hiddenSelectionsTextures[]=
 		{
@@ -5505,7 +5399,7 @@ class cfgVehicles
 	class MVS_CombatShirt_OD: MVS_CombatShirt_Base
 	{
 		scope=2;
-		displayName="MVS Combat Shirt - OD";
+		displayName="Combat Shirt - OD";
 		visibilityModifier=0.7;
 		hiddenSelectionsTextures[]=
 		{
@@ -5517,7 +5411,7 @@ class cfgVehicles
 	class MVS_CombatShirt_Black: MVS_CombatShirt_Base
 	{
 		scope=2;
-		displayName="MVS Combat Shirt - Black";
+		displayName="Combat Shirt - Black";
 		visibilityModifier=0.7;
 		hiddenSelectionsTextures[]=
 		{
@@ -5529,7 +5423,7 @@ class cfgVehicles
 	class MVS_CombatShirt_ERDL: MVS_CombatShirt_Base
 	{
 		scope=2;
-		displayName="MVS Combat Shirt - ERDL";
+		displayName="Combat Shirt - ERDL";
 		visibilityModifier=0.7;
 		hiddenSelectionsTextures[]=
 		{
@@ -5541,7 +5435,7 @@ class cfgVehicles
 	class MVS_CombatShirt_Snow: MVS_CombatShirt_Base
 	{
 		scope=2;
-		displayName="MVS Combat Shirt - Snow";
+		displayName="Combat Shirt - Snow";
 		visibilityModifier=0.7;
 		hiddenSelectionsTextures[]=
 		{
@@ -5553,7 +5447,7 @@ class cfgVehicles
 	class MVS_CombatShirt_Multicam: MVS_CombatShirt_Base
 	{
 		scope=2;
-		displayName="MVS Combat Shirt - Multicam";
+		displayName="Combat Shirt - Multicam";
 		visibilityModifier=0.7;
 		hiddenSelectionsTextures[]=
 		{
@@ -5565,7 +5459,7 @@ class cfgVehicles
 	class MVS_CombatShirt_Multicam_Tropic: MVS_CombatShirt_Base
 	{
 		scope=2;
-		displayName="MVS Combat Shirt - Multicam Tropic";
+		displayName="Combat Shirt - Multicam Tropic";
 		visibilityModifier=0.7;
 		hiddenSelectionsTextures[]=
 		{
@@ -5577,7 +5471,7 @@ class cfgVehicles
 	class MVS_CombatShirt_Multicam_Black: MVS_CombatShirt_Base
 	{
 		scope=2;
-		displayName="MVS Combat Shirt - Multicam Black";
+		displayName="Combat Shirt - Multicam Black";
 		visibilityModifier=0.7;
 		hiddenSelectionsTextures[]=
 		{
@@ -5607,8 +5501,8 @@ class cfgVehicles
 	class GorkaPants_Flat;
 	class MVS_GorkaPants: GorkaPants_Flat
 	{
-		displayName = "MVS Gorka Pants - ERDL";
-		descriptionShort = "MVS Gorka Pants - ERDL";
+		displayName = "Gorka Pants - ERDL";
+		descriptionShort = "Gorka Pants - ERDL";
 		scope=2;
 		hiddenSelectionsTextures[] = 
 		{
@@ -5619,8 +5513,8 @@ class cfgVehicles
 	};
 	class MVS_GorkaPants_Snow: GorkaPants_Flat
 	{
-		displayName = "MVS Gorka Pants - Snow";
-		descriptionShort = "MVS Gorka Pants - Snow";
+		displayName = "Gorka Pants - Snow";
+		descriptionShort = "Gorka Pants - Snow";
 		scope=2;
 		hiddenSelectionsTextures[] = 
 		{
@@ -5631,8 +5525,8 @@ class cfgVehicles
 	};
 	class MVS_GorkaPants_Multicam: GorkaPants_Flat
 	{
-		displayName = "MVS Gorka Pants - Multicam";
-		descriptionShort = "MVS Gorka Pants - Multicam";
+		displayName = "Gorka Pants - Multicam";
+		descriptionShort = "Gorka Pants - Multicam";
 		scope=2;
 		hiddenSelectionsTextures[] = 
 		{
@@ -5643,8 +5537,8 @@ class cfgVehicles
 	};
 	class MVS_GorkaPants_Multicam_Tropic: GorkaPants_Flat
 	{
-		displayName = "MVS Gorka Pants - Multicam Tropic";
-		descriptionShort = "MVS Gorka Pants - Multicam Tropic";
+		displayName = "Gorka Pants - Multicam Tropic";
+		descriptionShort = "Gorka Pants - Multicam Tropic";
 		scope=2;
 		hiddenSelectionsTextures[] = 
 		{
@@ -5655,8 +5549,8 @@ class cfgVehicles
 	};
 	class MVS_GorkaPants_Multicam_Black: GorkaPants_Flat
 	{
-		displayName = "MVS Gorka Pants - Multicam Black";
-		descriptionShort = "MVS Gorka Pants - Multicam Black";
+		displayName = "Gorka Pants - Multicam Black";
+		descriptionShort = "Gorka Pants - Multicam Black";
 		scope=2;
 		hiddenSelectionsTextures[] = 
 		{
@@ -5665,11 +5559,10 @@ class cfgVehicles
 			"ModularVestSystem\data\Uniforms\MVS_GorkaPants_MC_Black.paa"
 		};
 	};
-	class GorkaEJacket_Flat;
 	class MVS_GorkaJacket: GorkaEJacket_Flat
 	{
-		displayName = "MVS Gorka Top - ERDL";
-		descriptionShort = "MVS Gorka Top - ERDL";
+		displayName = "Gorka Top - ERDL";
+		descriptionShort = "Gorka Top - ERDL";
 		scope=2;
 		hiddenSelectionsTextures[] = 
 		{
@@ -5680,8 +5573,8 @@ class cfgVehicles
 	};
 	class MVS_GorkaJacket_Snow: GorkaEJacket_Flat
 	{
-		displayName = "MVS Gorka Top - Snow";
-		descriptionShort = "MVS Gorka Top - Snow";
+		displayName = "Gorka Top - Snow";
+		descriptionShort = "Gorka Top - Snow";
 		scope=2;
 		hiddenSelectionsTextures[] = 
 		{
@@ -5692,8 +5585,8 @@ class cfgVehicles
 	};
 	class MVS_GorkaJacket_Multicam: GorkaEJacket_Flat
 	{
-		displayName = "MVS Gorka Top - Multicam";
-		descriptionShort = "MVS Gorka Top - Multicam";
+		displayName = "Gorka Top - Multicam";
+		descriptionShort = "Gorka Top - Multicam";
 		scope=2;
 		hiddenSelectionsTextures[] = 
 		{
@@ -5704,8 +5597,8 @@ class cfgVehicles
 	};
 	class MVS_GorkaJacket_Multicam_Tropic: GorkaEJacket_Flat
 	{
-		displayName = "MVS Gorka Top - Multicam Tropic";
-		descriptionShort = "MVS Gorka Top - Multicam Tropic";
+		displayName = "Gorka Top - Multicam Tropic";
+		descriptionShort = "Gorka Top - Multicam Tropic";
 		scope=2;
 		hiddenSelectionsTextures[] = 
 		{
@@ -5716,8 +5609,8 @@ class cfgVehicles
 	};
 	class MVS_GorkaJacket_Multicam_Black: GorkaEJacket_Flat
 	{
-		displayName = "MVS Gorka Top - Multicam Black";
-		descriptionShort = "MVS Gorka Top - Multicam Black";
+		displayName = "Gorka Top - Multicam Black";
+		descriptionShort = "Gorka Top - Multicam Black";
 		scope=2;
 		hiddenSelectionsTextures[] = 
 		{
@@ -5726,11 +5619,10 @@ class cfgVehicles
 			"ModularVestSystem\data\Uniforms\MVS_GorkaJacket_MC_Black.paa"
 		};
 	};
-	class FlatCap_Black;
 	class MVS_FlatCap: FlatCap_Black
 	{
-		displayName = "MVS Flat Cap - ERDL";
-		descriptionShort = "MVS Flat Cap - ERDL";		
+		displayName = "Flat Cap - ERDL";
+		descriptionShort = "Flat Cap - ERDL";		
 		scope = 2;
 		visibilityModifier = 0.85;
 		hiddenSelectionsTextures[] = 
@@ -5742,8 +5634,8 @@ class cfgVehicles
 	};
 	class MVS_FlatCap_Snow: FlatCap_Black
 	{
-		displayName = "MVS Flat Cap - Snow";
-		descriptionShort = "MVS Flat Cap - Snow";		
+		displayName = "Flat Cap - Snow";
+		descriptionShort = "Flat Cap - Snow";		
 		scope = 2;
 		visibilityModifier = 0.85;
 		hiddenSelectionsTextures[] = 
@@ -5755,8 +5647,8 @@ class cfgVehicles
 	};
 	class MVS_FlatCap_Multicam: FlatCap_Black
 	{
-		displayName = "MVS Flat Cap - Multicam";
-		descriptionShort = "MVS Flat Cap - Multicam";		
+		displayName = "Flat Cap - Multicam";
+		descriptionShort = "Flat Cap - Multicam";		
 		scope = 2;
 		visibilityModifier = 0.85;
 		hiddenSelectionsTextures[] = 
@@ -5768,8 +5660,8 @@ class cfgVehicles
 	};
 	class MVS_FlatCap_Multicam_Tropic: FlatCap_Black
 	{
-		displayName = "MVS Flat Cap - Multicam Tropic";
-		descriptionShort = "MVS Flat Cap - Multicam Tropic";		
+		displayName = "Flat Cap - Multicam Tropic";
+		descriptionShort = "Flat Cap - Multicam Tropic";		
 		scope = 2;
 		visibilityModifier = 0.85;
 		hiddenSelectionsTextures[] = 
@@ -5781,8 +5673,8 @@ class cfgVehicles
 	};
 	class MVS_FlatCap_Multicam_Black: FlatCap_Black
 	{
-		displayName = "MVS Flat Cap - Multicam Black";
-		descriptionShort = "MVS Flat Cap - Multicam Black";		
+		displayName = "Flat Cap - Multicam Black";
+		descriptionShort = "Flat Cap - Multicam Black";		
 		scope = 2;
 		visibilityModifier = 0.85;
 		hiddenSelectionsTextures[] = 
@@ -5792,13 +5684,11 @@ class cfgVehicles
 			"ModularVestSystem\data\Uniforms\MVS_FlatCap_MC_Black.paa"
 		};
 	};
-	class CargoPants_Beige;
-	class TacticalShirt_Olive;
 	class MVS_Pants_BDU: CargoPants_Beige
 	{
 		scope = 2;
-		displayName = "MVS BDU Pants - ERDL";
-		descriptionShort = "MVS BDU Pants - ERDL";
+		displayName = "BDU Pants - ERDL";
+		descriptionShort = "BDU Pants - ERDL";
 		visibilityModifier = 0.9;
 		hiddenSelectionsTextures[] = 
 		{
@@ -5810,8 +5700,8 @@ class cfgVehicles
 	class MVS_Pants_BDU_Snow: CargoPants_Beige
 	{
 		scope = 2;
-		displayName = "MVS BDU Pants - Snow";
-		descriptionShort = "MVS BDU Pants - Snow";
+		displayName = "BDU Pants - Snow";
+		descriptionShort = "BDU Pants - Snow";
 		visibilityModifier = 0.9;
 		hiddenSelectionsTextures[] = 
 		{
@@ -5823,8 +5713,8 @@ class cfgVehicles
 	class MVS_Shirt_BDU: TacticalShirt_Olive
 	{
 		scope = 2;
-		displayName = "MVS BDU Top - ERDL";
-		descriptionShort = "MVS BDU Top - ERDL";
+		displayName = "BDU Top - ERDL";
+		descriptionShort = "BDU Top - ERDL";
 		visibilityModifier = 0.6;
 		hiddenSelectionsTextures[] = 
 		{
@@ -5836,8 +5726,8 @@ class cfgVehicles
 	class MVS_Shirt_BDU_Snow: TacticalShirt_Olive
 	{
 		scope = 2;
-		displayName = "MVS BDU Top - Snow";
-		descriptionShort = "MVS BDU Top - Snow";
+		displayName = "BDU Top - Snow";
+		descriptionShort = "BDU Top - Snow";
 		visibilityModifier = 0.6;
 		hiddenSelectionsTextures[] = 
 		{
@@ -5849,8 +5739,8 @@ class cfgVehicles
 	class MVS_Shirt_BDU_Multicam: TacticalShirt_Olive
 	{
 		scope = 2;
-		displayName = "MVS BDU Top - Multicam";
-		descriptionShort = "MVS BDU Top - Multicam";
+		displayName = "BDU Top - Multicam";
+		descriptionShort = "BDU Top - Multicam";
 		visibilityModifier = 0.6;
 		hiddenSelectionsTextures[] = 
 		{
@@ -5862,8 +5752,8 @@ class cfgVehicles
 	class MVS_Shirt_BDU_Multicam_Tropic: TacticalShirt_Olive
 	{
 		scope = 2;
-		displayName = "MVS BDU Top - Multicam Tropic";
-		descriptionShort = "MVS BDU Top - Multicam Tropic";
+		displayName = "BDU Top - Multicam Tropic";
+		descriptionShort = "BDU Top - Multicam Tropic";
 		visibilityModifier = 0.6;
 		hiddenSelectionsTextures[] = 
 		{
@@ -5875,8 +5765,8 @@ class cfgVehicles
 	class MVS_Shirt_BDU_Multicam_Black: TacticalShirt_Olive
 	{
 		scope = 2;
-		displayName = "MVS BDU Top - Multicam Black";
-		descriptionShort = "MVS BDU Top - Multicam Black";
+		displayName = "BDU Top - Multicam Black";
+		descriptionShort = "BDU Top - Multicam Black";
 		visibilityModifier = 0.6;
 		hiddenSelectionsTextures[] = 
 		{
@@ -5885,11 +5775,10 @@ class cfgVehicles
 			"ModularVestSystem\data\Uniforms\MVS_jacket_BDU_MC_Black.paa"
 		};
 	};
-	class BoonieHat_Olive;
 	class MVS_BoonieHat: BoonieHat_Olive
 	{
-		displayName = "MVS Boonie Hat - ERDL";
-		descriptionShort = "MVS Boonie Hat - ERDL";
+		displayName = "Boonie Hat - ERDL";
+		descriptionShort = "Boonie Hat - ERDL";
 		scope = 2;
 		hiddenSelectionsTextures[] = 
 		{
@@ -5900,8 +5789,8 @@ class cfgVehicles
 	};
 	class MVS_BoonieHat_Snow: BoonieHat_Olive
 	{
-		displayName = "MVS Boonie Hat - Snow";
-		descriptionShort = "MVS Boonie Hat - Snow";
+		displayName = "Boonie Hat - Snow";
+		descriptionShort = "Boonie Hat - Snow";
 		scope = 2;
 		hiddenSelectionsTextures[] = 
 		{
@@ -5912,8 +5801,8 @@ class cfgVehicles
 	};
 	class MVS_BoonieHat_Multicam: BoonieHat_Olive
 	{
-		displayName = "MVS Boonie Hat - Multicam";
-		descriptionShort = "MVS Boonie Hat - Multicam";
+		displayName = "Boonie Hat - Multicam";
+		descriptionShort = "Boonie Hat - Multicam";
 		scope = 2;
 		hiddenSelectionsTextures[] = 
 		{
@@ -5924,8 +5813,8 @@ class cfgVehicles
 	};
 	class MVS_BoonieHat_Multicam_Tropic: BoonieHat_Olive
 	{
-		displayName = "MVS Boonie Hat - Multicam Tropic";
-		descriptionShort = "MVS Boonie Hat - Multicam Tropic";
+		displayName = "Boonie Hat - Multicam Tropic";
+		descriptionShort = "Boonie Hat - Multicam Tropic";
 		scope = 2;
 		hiddenSelectionsTextures[] = 
 		{
@@ -5936,8 +5825,8 @@ class cfgVehicles
 	};
 	class MVS_BoonieHat_Multicam_Black: BoonieHat_Olive
 	{
-		displayName = "MVS Boonie Hat - Multicam Black";
-		descriptionShort = "MVS Boonie Hat - Multicam Black";
+		displayName = "Boonie Hat - Multicam Black";
+		descriptionShort = "Boonie Hat - Multicam Black";
 		scope = 2;
 		hiddenSelectionsTextures[] = 
 		{
@@ -5950,7 +5839,7 @@ class cfgVehicles
 	{
 		scope = 0;
 		displayName = "Identifier Patch";
-		descriptionShort = "MVS Identifier Patch - comes in a variety of patterns and emblems";
+		descriptionShort = "Identifier Patch - comes in a variety of patterns and emblems";
 		model = "ModularVestSystem\data\patch.p3d";
 		itemSize[] = {2,1};
 		inventorySlot[] = {"Armband","patch_01","patch_02","patch_03","patch_04"};
@@ -6009,8 +5898,8 @@ class cfgVehicles
 	class Modular_Patch_Base_2: Clothing
 	{
 		scope = 0;
-		displayName = "MVS Country Flag";
-		descriptionShort = "MVS Country Flag Patch";
+		displayName = "Country Flag";
+		descriptionShort = "Country Flag Patch";
 		model = "ModularVestSystem\data\MVS_Country_Patch.p3d";
 		itemSize[] = {2,1};
 		inventorySlot[] = {"Armband","patch_01","patch_02","patch_03","patch_04"};
@@ -6069,7 +5958,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Afghanistan: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Afghanistan";
+		displayName = "Country Flag - Afghanistan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Afghanistan.paa",
@@ -6079,7 +5968,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Albania: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Albania";
+		displayName = "Country Flag - Albania";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Albania.paa",
@@ -6089,7 +5978,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Algeria: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Algeria";
+		displayName = "Country Flag - Algeria";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Algeria.paa",
@@ -6099,7 +5988,7 @@ class cfgVehicles
 	class MVS_CountryFlag_AmericanSamoa: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - American Samoa";
+		displayName = "Country Flag - American Samoa";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\AmericanSamoa.paa",
@@ -6109,7 +5998,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Andorra: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Andorra";
+		displayName = "Country Flag - Andorra";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Andorra.paa",
@@ -6119,7 +6008,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Angola: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Angola";
+		displayName = "Country Flag - Angola";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Angola.paa",
@@ -6129,7 +6018,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Antigua: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Antigua";
+		displayName = "Country Flag - Antigua";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Antigua.paa",
@@ -6139,7 +6028,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Argentina: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Argentina";
+		displayName = "Country Flag - Argentina";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Argentina.paa",
@@ -6149,7 +6038,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Armenia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Armenia";
+		displayName = "Country Flag - Armenia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Armenia.paa",
@@ -6159,7 +6048,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Aruba: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Aruba";
+		displayName = "Country Flag - Aruba";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Aruba.paa",
@@ -6169,7 +6058,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Australia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Australia";
+		displayName = "Country Flag - Australia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Australia.paa",
@@ -6179,7 +6068,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Austria: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Austria";
+		displayName = "Country Flag - Austria";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Austria.paa",
@@ -6189,7 +6078,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Azerbaijan: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Azerbaijan";
+		displayName = "Country Flag - Azerbaijan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Azerbaijan.paa",
@@ -6199,7 +6088,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Azores: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Azores";
+		displayName = "Country Flag - Azores";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Azores.paa",
@@ -6209,7 +6098,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Bahamas: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Bahamas";
+		displayName = "Country Flag - Bahamas";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Bahamas.paa",
@@ -6219,7 +6108,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Bahrain: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Bahrain";
+		displayName = "Country Flag - Bahrain";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Bahrain.paa",
@@ -6229,7 +6118,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Bangladesh: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Bangladesh";
+		displayName = "Country Flag - Bangladesh";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Bangladesh.paa",
@@ -6239,7 +6128,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Barbados: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Barbados";
+		displayName = "Country Flag - Barbados";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Barbados.paa",
@@ -6249,7 +6138,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Belarus: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Belarus";
+		displayName = "Country Flag - Belarus";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Belarus.paa",
@@ -6259,7 +6148,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Belgium: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Belgium";
+		displayName = "Country Flag - Belgium";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Belgium.paa",
@@ -6269,7 +6158,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Belize: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Belize";
+		displayName = "Country Flag - Belize";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Belize.paa",
@@ -6279,7 +6168,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Benin: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Benin";
+		displayName = "Country Flag - Benin";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Benin.paa",
@@ -6289,7 +6178,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Bermuda: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Bermuda";
+		displayName = "Country Flag - Bermuda";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Bermuda.paa",
@@ -6299,7 +6188,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Bhutan: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Bhutan";
+		displayName = "Country Flag - Bhutan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Bhutan.paa",
@@ -6309,7 +6198,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Bolivia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Bolivia";
+		displayName = "Country Flag - Bolivia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Bolivia.paa",
@@ -6320,7 +6209,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Bosnia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Bosnia";
+		displayName = "Country Flag - Bosnia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Bosnia.paa",
@@ -6330,7 +6219,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Botswana: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Botswana";
+		displayName = "Country Flag - Botswana";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Botswana.paa",
@@ -6340,7 +6229,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Brazil: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Brazil";
+		displayName = "Country Flag - Brazil";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Brazil.paa",
@@ -6350,7 +6239,7 @@ class cfgVehicles
 	class MVS_CountryFlag_BritishVirginIslands: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - British Virgin Islands";
+		displayName = "Country Flag - British Virgin Islands";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\BritishVirginIslands.paa",
@@ -6360,7 +6249,7 @@ class cfgVehicles
 	class MVS_CountryFlag_BruneiDarussalam: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Brunei Darussalam";
+		displayName = "Country Flag - Brunei Darussalam";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\BruneiDarussalam.paa",
@@ -6370,7 +6259,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Bulgaria: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Bulgaria";
+		displayName = "Country Flag - Bulgaria";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Bulgaria.paa",
@@ -6380,7 +6269,7 @@ class cfgVehicles
 	class MVS_CountryFlag_BurkinaFaso: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Burkina Faso";
+		displayName = "Country Flag - Burkina Faso";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\BurkinaFaso.paa",
@@ -6390,7 +6279,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Burma: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Burma";
+		displayName = "Country Flag - Burma";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Burma.paa",
@@ -6400,7 +6289,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Burundi: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Burundi";
+		displayName = "Country Flag - Burundi";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Burundi.paa",
@@ -6410,7 +6299,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Cambodia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Cambodia";
+		displayName = "Country Flag - Cambodia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Cambodia.paa",
@@ -6420,7 +6309,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Cameroon: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Cameroon";
+		displayName = "Country Flag - Cameroon";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Cameroon.paa",
@@ -6430,7 +6319,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Canada: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Canada";
+		displayName = "Country Flag - Canada";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Canada.paa",
@@ -6440,7 +6329,7 @@ class cfgVehicles
 	class MVS_CountryFlag_CapeVerde: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Cape Verde";
+		displayName = "Country Flag - Cape Verde";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\CapeVerde.paa",
@@ -6450,7 +6339,7 @@ class cfgVehicles
 	class MVS_CountryFlag_CaymanIslands: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Cayman Islands";
+		displayName = "Country Flag - Cayman Islands";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\CaymanIslands.paa",
@@ -6460,7 +6349,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Chad: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Chad";
+		displayName = "Country Flag - Chad";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Chad.paa",
@@ -6470,7 +6359,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Chile: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Chile";
+		displayName = "Country Flag - Chile";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Chile.paa",
@@ -6480,7 +6369,7 @@ class cfgVehicles
 	class MVS_CountryFlag_China: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - China";
+		displayName = "Country Flag - China";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\China.paa",
@@ -6490,7 +6379,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Colombia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Colombia";
+		displayName = "Country Flag - Colombia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Colombia.paa",
@@ -6500,7 +6389,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Comoros: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Comoros";
+		displayName = "Country Flag - Comoros";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Comoros.paa",
@@ -6510,7 +6399,7 @@ class cfgVehicles
 	class MVS_CountryFlag_CookIslands: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Cook Islands";
+		displayName = "Country Flag - Cook Islands";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\CookIslands.paa",
@@ -6520,7 +6409,7 @@ class cfgVehicles
 	class MVS_CountryFlag_CostaRica: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Costa Rica";
+		displayName = "Country Flag - Costa Rica";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\CostaRica.paa",
@@ -6530,7 +6419,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Croatia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Croatia";
+		displayName = "Country Flag - Croatia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Croatia.paa",
@@ -6540,7 +6429,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Cuba: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Cuba";
+		displayName = "Country Flag - Cuba";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Cuba.paa",
@@ -6550,7 +6439,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Curacao: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Curacao";
+		displayName = "Country Flag - Curacao";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Curacao.paa",
@@ -6560,7 +6449,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Cyprus: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Cyprus";
+		displayName = "Country Flag - Cyprus";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Cyprus.paa",
@@ -6570,7 +6459,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Czech: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Czech";
+		displayName = "Country Flag - Czech";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Czech.paa",
@@ -6580,7 +6469,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Denmark: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Denmark";
+		displayName = "Country Flag - Denmark";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Denmark.paa",
@@ -6590,7 +6479,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Djibouti: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Djibouti";
+		displayName = "Country Flag - Djibouti";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Djibouti.paa",
@@ -6600,7 +6489,7 @@ class cfgVehicles
 	class MVS_CountryFlag_DominicanRepublic: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Dominican Republic";
+		displayName = "Country Flag - Dominican Republic";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\DominicanRepublic.paa",
@@ -6610,7 +6499,7 @@ class cfgVehicles
 	class MVS_CountryFlag_EastTimor: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - East Timor";
+		displayName = "Country Flag - East Timor";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\EastTimor.paa",
@@ -6620,7 +6509,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Ecuador: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Ecuador";
+		displayName = "Country Flag - Ecuador";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Ecuador.paa",
@@ -6630,7 +6519,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Egypt: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Egypt";
+		displayName = "Country Flag - Egypt";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Egypt.paa",
@@ -6640,7 +6529,7 @@ class cfgVehicles
 	class MVS_CountryFlag_ElSalvador: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - El Salvador";
+		displayName = "Country Flag - El Salvador";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\ElSalvador.paa",
@@ -6650,7 +6539,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Eritrea: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Eritrea";
+		displayName = "Country Flag - Eritrea";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Eritrea.paa",
@@ -6660,7 +6549,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Estonia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Estonia";
+		displayName = "Country Flag - Estonia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Estonia.paa",
@@ -6670,7 +6559,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Ethiopia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Ethiopia";
+		displayName = "Country Flag - Ethiopia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Ethiopia.paa",
@@ -6680,7 +6569,7 @@ class cfgVehicles
 	class MVS_CountryFlag_FalklandIslands: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Falkland Islands";
+		displayName = "Country Flag - Falkland Islands";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\FalklandIslands.paa",
@@ -6690,7 +6579,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Fiji: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Fiji";
+		displayName = "Country Flag - Fiji";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Fiji.paa",
@@ -6700,7 +6589,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Finland: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Finland";
+		displayName = "Country Flag - Finland";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Finland.paa",
@@ -6710,7 +6599,7 @@ class cfgVehicles
 	class MVS_CountryFlag_France: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - France";
+		displayName = "Country Flag - France";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\France.paa",
@@ -6720,7 +6609,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Gabon: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Gabon";
+		displayName = "Country Flag - Gabon";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Gabon.paa",
@@ -6730,7 +6619,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Gambia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Gambia";
+		displayName = "Country Flag - Gambia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Gambia.paa",
@@ -6740,7 +6629,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Germany: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Germany";
+		displayName = "Country Flag - Germany";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Germany.paa",
@@ -6750,7 +6639,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Ghana: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Ghana";
+		displayName = "Country Flag - Ghana";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Ghana.paa",
@@ -6760,7 +6649,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Gibraltar: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Gibraltar";
+		displayName = "Country Flag - Gibraltar";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Gibraltar.paa",
@@ -6770,7 +6659,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Greece: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Greece";
+		displayName = "Country Flag - Greece";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Greece.paa",
@@ -6780,7 +6669,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Greenland: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Greenland";
+		displayName = "Country Flag - Greenland";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Greenland.paa",
@@ -6790,7 +6679,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Grenada: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Grenada";
+		displayName = "Country Flag - Grenada";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Grenada.paa",
@@ -6800,7 +6689,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Guam: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Guam";
+		displayName = "Country Flag - Guam";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Guam.paa",
@@ -6810,7 +6699,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Guatemala: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Guatemala";
+		displayName = "Country Flag - Guatemala";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Guatemala.paa",
@@ -6820,7 +6709,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Guinea: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Guinea";
+		displayName = "Country Flag - Guinea";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Guinea.paa",
@@ -6830,7 +6719,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Guyana: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Guyana";
+		displayName = "Country Flag - Guyana";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Guyana.paa",
@@ -6840,7 +6729,7 @@ class cfgVehicles
 	class MVS_CountryFlag_GypsyRomani: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Gypsy Romani";
+		displayName = "Country Flag - Gypsy Romani";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\GypsyRomani.paa",
@@ -6850,7 +6739,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Haiti: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Haiti";
+		displayName = "Country Flag - Haiti";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Haiti.paa",
@@ -6860,7 +6749,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Honduras: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Honduras";
+		displayName = "Country Flag - Honduras";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Honduras.paa",
@@ -6870,7 +6759,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Hungary: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Hungary";
+		displayName = "Country Flag - Hungary";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Hungary.paa",
@@ -6880,7 +6769,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Iceland: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Iceland";
+		displayName = "Country Flag - Iceland";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Iceland.paa",
@@ -6890,7 +6779,7 @@ class cfgVehicles
 	class MVS_CountryFlag_India: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - India";
+		displayName = "Country Flag - India";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\India.paa",
@@ -6900,7 +6789,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Indonesia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Indonesia";
+		displayName = "Country Flag - Indonesia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Indonesia.paa",
@@ -6910,7 +6799,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Iran: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Iran";
+		displayName = "Country Flag - Iran";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Iran.paa",
@@ -6920,7 +6809,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Iraq: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Iraq";
+		displayName = "Country Flag - Iraq";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Iraq.paa",
@@ -6930,7 +6819,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Ireland: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Ireland";
+		displayName = "Country Flag - Ireland";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Ireland.paa",
@@ -6940,7 +6829,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Israel: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Israel";
+		displayName = "Country Flag - Israel";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Israel.paa",
@@ -6950,7 +6839,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Italy: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Italy";
+		displayName = "Country Flag - Italy";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Italy.paa",
@@ -6960,7 +6849,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Jamaica: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Jamaica";
+		displayName = "Country Flag - Jamaica";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Jamaica.paa",
@@ -6970,7 +6859,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Japan: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Japan";
+		displayName = "Country Flag - Japan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Japan.paa",
@@ -6980,7 +6869,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Jordan: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Jordan";
+		displayName = "Country Flag - Jordan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Jordan.paa",
@@ -6990,7 +6879,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Kazakhstan: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Kazakhstan";
+		displayName = "Country Flag - Kazakhstan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Kazakhstan.paa",
@@ -7000,7 +6889,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Kenya: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Kenya";
+		displayName = "Country Flag - Kenya";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Kenya.paa",
@@ -7010,7 +6899,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Kiribati: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Kiribati";
+		displayName = "Country Flag - Kiribati";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Kiribati.paa",
@@ -7020,7 +6909,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Kosovo: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Kosovo";
+		displayName = "Country Flag - Kosovo";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Kosovo.paa",
@@ -7030,7 +6919,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Kuwait: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Kuwait";
+		displayName = "Country Flag - Kuwait";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Kuwait.paa",
@@ -7040,7 +6929,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Kyrgyzstan: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Kyrgyzstan";
+		displayName = "Country Flag - Kyrgyzstan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Kyrgyzstan.paa",
@@ -7050,7 +6939,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Laos: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Laos";
+		displayName = "Country Flag - Laos";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Laos.paa",
@@ -7060,7 +6949,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Latvia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Latvia";
+		displayName = "Country Flag - Latvia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Latvia.paa",
@@ -7070,7 +6959,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Lebanon: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Lebanon";
+		displayName = "Country Flag - Lebanon";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Lebanon.paa",
@@ -7080,7 +6969,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Lesotho: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Lesotho";
+		displayName = "Country Flag - Lesotho";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Lesotho.paa",
@@ -7090,7 +6979,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Liberia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Liberia";
+		displayName = "Country Flag - Liberia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Liberia.paa",
@@ -7100,7 +6989,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Libya: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Libya";
+		displayName = "Country Flag - Libya";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Libya.paa",
@@ -7110,7 +6999,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Lithuania: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Lithuania";
+		displayName = "Country Flag - Lithuania";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Lithuania.paa",
@@ -7120,7 +7009,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Macau: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Macau";
+		displayName = "Country Flag - Macau";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Macau.paa",
@@ -7130,7 +7019,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Macedonia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Macedonia";
+		displayName = "Country Flag - Macedonia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Macedonia.paa",
@@ -7140,7 +7029,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Madagascar: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Madagascar";
+		displayName = "Country Flag - Madagascar";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Madagascar.paa",
@@ -7150,7 +7039,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Malawi: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Malawi";
+		displayName = "Country Flag - Malawi";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Malawi.paa",
@@ -7160,7 +7049,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Malaysia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Malaysia";
+		displayName = "Country Flag - Malaysia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Malaysia.paa",
@@ -7170,7 +7059,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Maldives: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Maldives";
+		displayName = "Country Flag - Maldives";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Maldives.paa",
@@ -7180,7 +7069,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Mali: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Mali";
+		displayName = "Country Flag - Mali";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Mali.paa",
@@ -7190,7 +7079,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Malta: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Malta";
+		displayName = "Country Flag - Malta";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Malta.paa",
@@ -7200,7 +7089,7 @@ class cfgVehicles
 	class MVS_CountryFlag_MarshallIslands: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Marshall Islands";
+		displayName = "Country Flag - Marshall Islands";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\MarshallIslands.paa",
@@ -7210,7 +7099,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Mauritius: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Mauritius";
+		displayName = "Country Flag - Mauritius";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Mauritius.paa",
@@ -7220,7 +7109,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Mexico: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Mexico";
+		displayName = "Country Flag - Mexico";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Mexico.paa",
@@ -7230,7 +7119,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Micronesia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Micronesia";
+		displayName = "Country Flag - Micronesia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Micronesia.paa",
@@ -7240,7 +7129,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Moldova: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Moldova";
+		displayName = "Country Flag - Moldova";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Moldova.paa",
@@ -7250,7 +7139,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Monaco: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Monaco";
+		displayName = "Country Flag - Monaco";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Monaco.paa",
@@ -7260,7 +7149,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Mongolia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Mongolia";
+		displayName = "Country Flag - Mongolia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Mongolia.paa",
@@ -7270,7 +7159,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Montenegro: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Montenegro";
+		displayName = "Country Flag - Montenegro";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Montenegro.paa",
@@ -7280,7 +7169,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Morocco: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Morocco";
+		displayName = "Country Flag - Morocco";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Morocco.paa",
@@ -7290,7 +7179,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Mozambique: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Mozambique";
+		displayName = "Country Flag - Mozambique";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Mozambique.paa",
@@ -7300,7 +7189,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Namibia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Namibia";
+		displayName = "Country Flag - Namibia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Namibia.paa",
@@ -7310,7 +7199,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Nauru: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Nauru";
+		displayName = "Country Flag - Nauru";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Nauru.paa",
@@ -7320,7 +7209,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Netherlands: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Netherlands";
+		displayName = "Country Flag - Netherlands";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Netherlands.paa",
@@ -7330,7 +7219,7 @@ class cfgVehicles
 	class MVS_CountryFlag_NewZealand: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - New Zealand";
+		displayName = "Country Flag - New Zealand";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\NewZealand.paa",
@@ -7340,7 +7229,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Nicaragua: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Nicaragua";
+		displayName = "Country Flag - Nicaragua";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Nicaragua.paa",
@@ -7350,7 +7239,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Niger: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Niger";
+		displayName = "Country Flag - Niger";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Niger.paa",
@@ -7360,7 +7249,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Nigeria: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Nigeria";
+		displayName = "Country Flag - Nigeria";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Nigeria.paa",
@@ -7370,7 +7259,7 @@ class cfgVehicles
 	class MVS_CountryFlag_NorthernIreland: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Northern Ireland";
+		displayName = "Country Flag - Northern Ireland";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\NorthernIreland.paa",
@@ -7380,7 +7269,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Norway: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Norway";
+		displayName = "Country Flag - Norway";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Norway.paa",
@@ -7390,7 +7279,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Oman: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Oman";
+		displayName = "Country Flag - Oman";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Oman.paa",
@@ -7400,7 +7289,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Pakistan: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Pakistan";
+		displayName = "Country Flag - Pakistan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Pakistan.paa",
@@ -7410,7 +7299,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Palau: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Palau";
+		displayName = "Country Flag - Palau";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Palau.paa",
@@ -7420,7 +7309,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Palestine: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Palestine";
+		displayName = "Country Flag - Palestine";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Palestine.paa",
@@ -7430,7 +7319,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Panama: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Panama";
+		displayName = "Country Flag - Panama";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Panama.paa",
@@ -7440,7 +7329,7 @@ class cfgVehicles
 	class MVS_CountryFlag_PapuaNewGuinea: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Papua New Guinea";
+		displayName = "Country Flag - Papua New Guinea";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\PapuaNewGuinea.paa",
@@ -7450,7 +7339,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Paraguay: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Paraguay";
+		displayName = "Country Flag - Paraguay";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Paraguay.paa",
@@ -7460,7 +7349,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Peru: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Peru";
+		displayName = "Country Flag - Peru";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Peru.paa",
@@ -7470,7 +7359,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Philippines: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Philippines";
+		displayName = "Country Flag - Philippines";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Philippines.paa",
@@ -7480,7 +7369,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Poland: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Poland";
+		displayName = "Country Flag - Poland";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Poland.paa",
@@ -7490,7 +7379,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Portugal: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Portugal";
+		displayName = "Country Flag - Portugal";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Portugal.paa",
@@ -7500,7 +7389,7 @@ class cfgVehicles
 	class MVS_CountryFlag_PuertoRico: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Puerto Rico";
+		displayName = "Country Flag - Puerto Rico";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\PuertoRico.paa",
@@ -7510,7 +7399,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Qatar: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Qatar";
+		displayName = "Country Flag - Qatar";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Qatar.paa",
@@ -7520,7 +7409,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Romania: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Romania";
+		displayName = "Country Flag - Romania";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Romania.paa",
@@ -7530,7 +7419,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Russia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Russia";
+		displayName = "Country Flag - Russia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Russia.paa",
@@ -7541,7 +7430,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Rwanda: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Rwanda";
+		displayName = "Country Flag - Rwanda";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Rwanda.paa",
@@ -7551,7 +7440,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Samoa: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Samoa";
+		displayName = "Country Flag - Samoa";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Samoa.paa",
@@ -7561,7 +7450,7 @@ class cfgVehicles
 	class MVS_CountryFlag_SanMarino: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - San Marino";
+		displayName = "Country Flag - San Marino";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\SanMarino.paa",
@@ -7571,7 +7460,7 @@ class cfgVehicles
 	class MVS_CountryFlag_SaudiArabia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Saudi Arabia";
+		displayName = "Country Flag - Saudi Arabia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\SaudiArabia.paa",
@@ -7581,7 +7470,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Scotland: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Scotland";
+		displayName = "Country Flag - Scotland";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Scotland.paa",
@@ -7591,7 +7480,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Senegal: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Senegal";
+		displayName = "Country Flag - Senegal";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Senegal.paa",
@@ -7601,7 +7490,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Serbia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Serbia";
+		displayName = "Country Flag - Serbia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Serbia.paa",
@@ -7611,7 +7500,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Seychelles: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Seychelles";
+		displayName = "Country Flag - Seychelles";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Seychelles.paa",
@@ -7621,7 +7510,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Sicily: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Sicily";
+		displayName = "Country Flag - Sicily";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Sicily.paa",
@@ -7631,7 +7520,7 @@ class cfgVehicles
 	class MVS_CountryFlag_SierraLeone: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Sierra Leone";
+		displayName = "Country Flag - Sierra Leone";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\SierraLeone.paa",
@@ -7641,7 +7530,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Singapore: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Singapore";
+		displayName = "Country Flag - Singapore";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Singapore.paa",
@@ -7651,7 +7540,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Slovakia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Slovakia";
+		displayName = "Country Flag - Slovakia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Slovakia.paa",
@@ -7661,7 +7550,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Slovenia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Slovenia";
+		displayName = "Country Flag - Slovenia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Slovenia.paa",
@@ -7671,7 +7560,7 @@ class cfgVehicles
 	class MVS_CountryFlag_SolomonIslands: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Solomon Islands";
+		displayName = "Country Flag - Solomon Islands";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\SolomonIslands.paa",
@@ -7681,7 +7570,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Somalia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Somalia";
+		displayName = "Country Flag - Somalia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Somalia.paa",
@@ -7691,7 +7580,7 @@ class cfgVehicles
 	class MVS_CountryFlag_SouthAfrica: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - South Africa";
+		displayName = "Country Flag - South Africa";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\SouthAfrica.paa",
@@ -7701,7 +7590,7 @@ class cfgVehicles
 	class MVS_CountryFlag_SouthKorea: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - South Korea";
+		displayName = "Country Flag - South Korea";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\SouthKorea.paa",
@@ -7711,7 +7600,7 @@ class cfgVehicles
 	class MVS_CountryFlag_SouthVietnam: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - South Vietnam";
+		displayName = "Country Flag - South Vietnam";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\SouthVietnam.paa",
@@ -7721,7 +7610,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Spain: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Spain";
+		displayName = "Country Flag - Spain";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Spain.paa",
@@ -7731,7 +7620,7 @@ class cfgVehicles
 	class MVS_CountryFlag_SriLanka: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Sri Lanka";
+		displayName = "Country Flag - Sri Lanka";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\SriLanka.paa",
@@ -7741,7 +7630,7 @@ class cfgVehicles
 	class MVS_CountryFlag_StLucia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - St Lucia";
+		displayName = "Country Flag - St Lucia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\StLucia.paa",
@@ -7751,7 +7640,7 @@ class cfgVehicles
 	class MVS_CountryFlag_StMaarten: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - St Maarten";
+		displayName = "Country Flag - St Maarten";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\StMaarten.paa",
@@ -7761,7 +7650,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Sudan: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Sudan";
+		displayName = "Country Flag - Sudan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Sudan.paa",
@@ -7771,7 +7660,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Suriname: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Suriname";
+		displayName = "Country Flag - Suriname";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Suriname.paa",
@@ -7781,7 +7670,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Swaziland: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Swaziland";
+		displayName = "Country Flag - Swaziland";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Swaziland.paa",
@@ -7791,7 +7680,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Sweden: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Sweden";
+		displayName = "Country Flag - Sweden";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Sweden.paa",
@@ -7801,7 +7690,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Switzerland: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Switzerland";
+		displayName = "Country Flag - Switzerland";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Switzerland.paa",
@@ -7811,7 +7700,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Syria: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Syria";
+		displayName = "Country Flag - Syria";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Syria.paa",
@@ -7821,7 +7710,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Taiwan: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Taiwan";
+		displayName = "Country Flag - Taiwan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Taiwan.paa",
@@ -7831,7 +7720,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Tajikistan: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Tajikistan";
+		displayName = "Country Flag - Tajikistan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Tajikistan.paa",
@@ -7841,7 +7730,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Tanzania: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Tanzania";
+		displayName = "Country Flag - Tanzania";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Tanzania.paa",
@@ -7851,7 +7740,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Thailand: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Thailand";
+		displayName = "Country Flag - Thailand";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Thailand.paa",
@@ -7861,7 +7750,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Tibet: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Tibet";
+		displayName = "Country Flag - Tibet";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Tibet.paa",
@@ -7871,7 +7760,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Togo: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Togo";
+		displayName = "Country Flag - Togo";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Togo.paa",
@@ -7881,7 +7770,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Tonga: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Tonga";
+		displayName = "Country Flag - Tonga";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Tonga.paa",
@@ -7891,7 +7780,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Trinidad: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Trinidad";
+		displayName = "Country Flag - Trinidad";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Trinidad.paa",
@@ -7901,7 +7790,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Tunisia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Tunisia";
+		displayName = "Country Flag - Tunisia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Tunisia.paa",
@@ -7911,7 +7800,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Turkey: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Turkey";
+		displayName = "Country Flag - Turkey";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Turkey.paa",
@@ -7921,7 +7810,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Turkmenistan: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Turkmenistan";
+		displayName = "Country Flag - Turkmenistan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Turkmenistan.paa",
@@ -7931,7 +7820,7 @@ class cfgVehicles
 	class MVS_CountryFlag_TurksCaicos: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Turks & Caicos";
+		displayName = "Country Flag - Turks & Caicos";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\TurksCaicos.paa",
@@ -7941,7 +7830,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Tuvalu: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Tuvalu";
+		displayName = "Country Flag - Tuvalu";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Tuvalu.paa",
@@ -7951,7 +7840,7 @@ class cfgVehicles
 	class MVS_CountryFlag_UAE: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - UAE";
+		displayName = "Country Flag - UAE";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\UAE.paa",
@@ -7961,7 +7850,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Uganda: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Uganda";
+		displayName = "Country Flag - Uganda";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Uganda.paa",
@@ -7971,7 +7860,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Ukraine: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Ukraine";
+		displayName = "Country Flag - Ukraine";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Ukraine.paa",
@@ -7981,7 +7870,7 @@ class cfgVehicles
 	class MVS_CountryFlag_UnitedKingdom: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - United Kingdom";
+		displayName = "Country Flag - United Kingdom";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\UnitedKingdom.paa",
@@ -7991,7 +7880,7 @@ class cfgVehicles
 	class MVS_CountryFlag_UnitedNations: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - United Nations";
+		displayName = "Country Flag - United Nations";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\UnitedNations.paa",
@@ -8001,7 +7890,7 @@ class cfgVehicles
 	class MVS_CountryFlag_UnitedStates: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - United States";
+		displayName = "Country Flag - United States";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\UnitedStates.paa",
@@ -8011,7 +7900,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Uruguay: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Uruguay";
+		displayName = "Country Flag - Uruguay";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Uruguay.paa",
@@ -8021,7 +7910,7 @@ class cfgVehicles
 	class MVS_CountryFlag_USSR: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - USSR";
+		displayName = "Country Flag - USSR";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\USSR.paa",
@@ -8031,7 +7920,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Uzbekistan: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Uzbekistan";
+		displayName = "Country Flag - Uzbekistan";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Uzbekistan.paa",
@@ -8041,7 +7930,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Vanuatu: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Vanuatu";
+		displayName = "Country Flag - Vanuatu";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Vanuatu.paa",
@@ -8051,7 +7940,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Venezuela: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Venezuela";
+		displayName = "Country Flag - Venezuela";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Venezuela.paa",
@@ -8061,7 +7950,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Vietnam: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Vietnam";
+		displayName = "Country Flag - Vietnam";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Vietnam.paa",
@@ -8071,7 +7960,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Wales: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Wales";
+		displayName = "Country Flag - Wales";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Wales.paa",
@@ -8081,7 +7970,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Yemen: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Yemen";
+		displayName = "Country Flag - Yemen";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Yemen.paa",
@@ -8091,7 +7980,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Yugoslavia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Yugoslavia";
+		displayName = "Country Flag - Yugoslavia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Yugoslavia.paa",
@@ -8101,7 +7990,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Zambia: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Zambia";
+		displayName = "Country Flag - Zambia";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Zambia.paa",
@@ -8111,7 +8000,7 @@ class cfgVehicles
 	class MVS_CountryFlag_Zimbabwe: Modular_Patch_Base_2
 	{
 		scope = 2;
-		displayName = "MVS Country Flag - Zimbabwe";
+		displayName = "Country Flag - Zimbabwe";
 		hiddenSelectionsTextures[] = 
 		{
 			"ModularVestSystem\data\CountryFlags\Zimbabwe.paa",
@@ -8594,31 +8483,31 @@ class CfgSlots
 	class Slot_MVS_vest
 	{
 		name = "MVS_vest";
-		displayName = "MVS Vest";
+		displayName = "Vest";
 		ghostIcon = "vest";
 	};
 	class Slot_MVS_helmet
 	{
 		name = "MVS_helmet";
-		displayName = "MVS Helmet";
+		displayName = "Helmet";
 		ghostIcon = "headgear";
 	};
 	class Slot_MVS_mask
 	{
 		name = "MVS_mask";
-		displayName = "MVS Mask";
+		displayName = "Mask";
 		ghostIcon = "mask";
 	};
 	class Slot_MVS_pack
 	{
 		name = "MVS_pack";
-		displayName = "MVS Pack";
+		displayName = "Pack";
 		ghostIcon = "back";
 	};
 	class Slot_MVS_belt
 	{
 		name = "MVS_belt";
-		displayName = "MVS Belt";
+		displayName = "Belt";
 		ghostIcon = "hips";
 	};
 	class Slot_MVS_Screwdriver
