@@ -27,35 +27,12 @@ class ActionLiftVisor : ActionSingleUseBase
 
 	override bool ActionConditionContinue ( ActionData action_data ) { return true; }
 
-#ifdef DAYZ_1_11	
-	override void OnExecuteClient ( ActionData action_data )
-	{
-		ClearInventoryReservation(action_data);
-	}
-#else
 	override void OnExecuteClient ( ActionData action_data )
 	{
 		ClearInventoryReservationEx(action_data);
 	}	
-#endif
 	
 	
-#ifdef DAYZ_1_11	
-	override void OnExecuteServer ( ActionData action_data )
-	{
-		if ( !GetGame().IsMultiplayer() )
-			ClearInventoryReservation(action_data);
-
-		ItemBase old_item = action_data.m_MainItem;
-		if (old_item.ConfigIsExisting("color"))
-		{
-			string str = "MVS_Altyn_Visor_Lifted_" + old_item.ConfigGetString("color");
-			TurnItemIntoItemLambda lambda = new TurnItemIntoItemLambda(action_data.m_MainItem, str, action_data.m_Player);
-			lambda.SetTransferParams(true, true, true, false, 1);
-			action_data.m_Player.ServerReplaceItemInHandsWithNew(lambda);
-		}
-	}
-#else
 	override void OnExecuteServer ( ActionData action_data )
 	{
 		if ( !GetGame().IsMultiplayer() )
@@ -69,6 +46,5 @@ class ActionLiftVisor : ActionSingleUseBase
 			lambda.SetTransferParams(true, true, true, false, 1);
 			action_data.m_Player.ServerReplaceItemInHandsWithNew(lambda);
 		}
-	}	
-#endif
+	}
 };
